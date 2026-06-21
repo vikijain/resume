@@ -1,1602 +1,802 @@
 [
   {
     "id": 1,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "What is Earth's natural satellite?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Moon",
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 2,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "Which star is closest to Earth?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Sun",
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 3,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "Which planet has famous rings?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Saturn",
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 4,
-    "category": "Space",
-    "ageMin": 2,
+    "category": "space",
+    "question": "What do astronauts travel in?",
+    "options": [
+      "Spacecraft",
+      "Train",
+      "Bus",
+      "Boat"
+    ],
+    "answer": "Spacecraft",
+    "ageMin": 8,
     "ageMax": 15,
     "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "fact": "Learning through play is fun."
   },
   {
     "id": 5,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "Which planet is the Red Planet?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
     "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 6,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "What is Earth's natural satellite?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Moon",
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 7,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "Which star is closest to Earth?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Sun",
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 8,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "Which planet has famous rings?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Saturn",
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 9,
-    "category": "Space",
-    "ageMin": 2,
+    "category": "space",
+    "question": "What do astronauts travel in?",
+    "options": [
+      "Spacecraft",
+      "Train",
+      "Bus",
+      "Boat"
+    ],
+    "answer": "Spacecraft",
+    "ageMin": 8,
     "ageMax": 15,
     "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "fact": "Learning through play is fun."
   },
   {
     "id": 10,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "Which planet is the Red Planet?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
     "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 11,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "What is Earth's natural satellite?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Moon",
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 12,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "Which star is closest to Earth?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Sun",
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 13,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "Which planet has famous rings?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Saturn",
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 14,
-    "category": "Space",
-    "ageMin": 2,
+    "category": "space",
+    "question": "What do astronauts travel in?",
+    "options": [
+      "Spacecraft",
+      "Train",
+      "Bus",
+      "Boat"
+    ],
+    "answer": "Spacecraft",
+    "ageMin": 8,
     "ageMax": 15,
     "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "fact": "Learning through play is fun."
   },
   {
     "id": 15,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "Which planet is the Red Planet?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
     "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 16,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "What is Earth's natural satellite?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Moon",
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 17,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "Which star is closest to Earth?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Sun",
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 18,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "Which planet has famous rings?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Saturn",
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 19,
-    "category": "Space",
-    "ageMin": 2,
+    "category": "space",
+    "question": "What do astronauts travel in?",
+    "options": [
+      "Spacecraft",
+      "Train",
+      "Bus",
+      "Boat"
+    ],
+    "answer": "Spacecraft",
+    "ageMin": 8,
     "ageMax": 15,
     "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "fact": "Learning through play is fun."
   },
   {
     "id": 20,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "Which planet is the Red Planet?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
     "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 21,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "What is Earth's natural satellite?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Moon",
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 22,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "Which star is closest to Earth?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Sun",
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 23,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "Which planet has famous rings?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Saturn",
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 24,
-    "category": "Space",
-    "ageMin": 2,
+    "category": "space",
+    "question": "What do astronauts travel in?",
+    "options": [
+      "Spacecraft",
+      "Train",
+      "Bus",
+      "Boat"
+    ],
+    "answer": "Spacecraft",
+    "ageMin": 8,
     "ageMax": 15,
     "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "fact": "Learning through play is fun."
   },
   {
     "id": 25,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "Which planet is the Red Planet?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
     "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 26,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "What is Earth's natural satellite?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Moon",
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 27,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "Which star is closest to Earth?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Sun",
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 28,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "Which planet has famous rings?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Saturn",
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 29,
-    "category": "Space",
-    "ageMin": 2,
+    "category": "space",
+    "question": "What do astronauts travel in?",
+    "options": [
+      "Spacecraft",
+      "Train",
+      "Bus",
+      "Boat"
+    ],
+    "answer": "Spacecraft",
+    "ageMin": 8,
     "ageMax": 15,
     "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "fact": "Learning through play is fun."
   },
   {
     "id": 30,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "Which planet is the Red Planet?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
     "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 31,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "What is Earth's natural satellite?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Moon",
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 32,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "Which star is closest to Earth?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Sun",
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 33,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "Which planet has famous rings?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Saturn",
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 34,
-    "category": "Space",
-    "ageMin": 2,
+    "category": "space",
+    "question": "What do astronauts travel in?",
+    "options": [
+      "Spacecraft",
+      "Train",
+      "Bus",
+      "Boat"
+    ],
+    "answer": "Spacecraft",
+    "ageMin": 8,
     "ageMax": 15,
     "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "fact": "Learning through play is fun."
   },
   {
     "id": 35,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "Which planet is the Red Planet?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
     "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 36,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "What is Earth's natural satellite?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Moon",
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 37,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "Which star is closest to Earth?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Sun",
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 38,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "Which planet has famous rings?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Saturn",
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 39,
-    "category": "Space",
-    "ageMin": 2,
+    "category": "space",
+    "question": "What do astronauts travel in?",
+    "options": [
+      "Spacecraft",
+      "Train",
+      "Bus",
+      "Boat"
+    ],
+    "answer": "Spacecraft",
+    "ageMin": 8,
     "ageMax": 15,
     "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "fact": "Learning through play is fun."
   },
   {
     "id": 40,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "Which planet is the Red Planet?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
     "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 41,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "What is Earth's natural satellite?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Moon",
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 42,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "Which star is closest to Earth?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Sun",
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 43,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "Which planet has famous rings?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Saturn",
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 44,
-    "category": "Space",
-    "ageMin": 2,
+    "category": "space",
+    "question": "What do astronauts travel in?",
+    "options": [
+      "Spacecraft",
+      "Train",
+      "Bus",
+      "Boat"
+    ],
+    "answer": "Spacecraft",
+    "ageMin": 8,
     "ageMax": 15,
     "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "fact": "Learning through play is fun."
   },
   {
     "id": 45,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "Which planet is the Red Planet?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
     "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 46,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "What is Earth's natural satellite?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Moon",
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 47,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "Which star is closest to Earth?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Sun",
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 48,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "Which planet has famous rings?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Saturn",
+    "ageMin": 8,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 49,
-    "category": "Space",
-    "ageMin": 2,
+    "category": "space",
+    "question": "What do astronauts travel in?",
+    "options": [
+      "Spacecraft",
+      "Train",
+      "Bus",
+      "Boat"
+    ],
+    "answer": "Spacecraft",
+    "ageMin": 8,
     "ageMax": 15,
     "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "fact": "Learning through play is fun."
   },
   {
     "id": 50,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
+    "category": "space",
+    "question": "Which planet is the Red Planet?",
     "options": [
       "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
+      "Moon",
+      "Sun",
+      "Saturn"
     ],
     "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 51,
-    "category": "Space",
-    "ageMin": 2,
+    "ageMin": 8,
     "ageMax": 15,
     "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 52,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 53,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 54,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 55,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 56,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 57,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 58,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 59,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 60,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 61,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 62,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 63,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 64,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 65,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 66,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 67,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 68,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 69,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 70,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 71,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 72,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 73,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 74,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 75,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 76,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 77,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 78,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 79,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 80,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 81,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 82,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 83,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 84,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 85,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 86,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 87,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 88,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 89,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 90,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 91,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 92,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 93,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 94,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 95,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 96,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 97,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 98,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 99,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 100,
-    "category": "Space",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Earth",
-      "Jupiter"
-    ],
-    "answer": "Mars",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "fact": "Learning through play is fun."
   }
 ]

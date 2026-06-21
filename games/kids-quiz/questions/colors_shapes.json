@@ -1,1602 +1,802 @@
 [
   {
     "id": 1,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 2 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Blue",
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 2,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 3 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Green",
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 3,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 4 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
     "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 4,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 1 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Red",
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 5,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 2 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Blue",
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 6,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 3 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Green",
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 7,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 4 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
     "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 8,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 1 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Red",
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 9,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 2 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Blue",
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 10,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 3 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Green",
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 11,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 4 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
     "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 12,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 1 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Red",
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 13,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 2 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Blue",
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 14,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 3 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Green",
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 15,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 4 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
     "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 16,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 1 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Red",
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 17,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 2 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Blue",
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 18,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 3 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Green",
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 19,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 4 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
     "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 20,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 1 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Red",
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 21,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 2 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Blue",
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 22,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 3 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Green",
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 23,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 4 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
     "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 24,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 1 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Red",
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 25,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 2 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Blue",
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 26,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 3 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Green",
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 27,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 4 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
     "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 28,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 1 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Red",
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 29,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 2 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Blue",
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 30,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 3 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Green",
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 31,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 4 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
     "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 32,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 1 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Red",
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 33,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 2 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Blue",
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 34,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 3 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Green",
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 35,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 4 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
     "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 36,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 1 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Red",
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 37,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 2 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Blue",
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 38,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 3 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Green",
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 39,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 4 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
     "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 40,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 1 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Red",
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 41,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 2 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Blue",
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 42,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 3 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Green",
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 43,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 4 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
     "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 44,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 1 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Red",
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 45,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 2 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Blue",
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 46,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 3 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Green",
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 47,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 4 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
     "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 48,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 1 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Red",
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 49,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 2 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "Blue",
+    "ageMin": 2,
+    "ageMax": 6,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 50,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
+    "category": "colors_shapes",
+    "question": "Which color appears at position 3 in the rainbow game?",
     "options": [
-      "Yellow",
+      "Red",
       "Blue",
-      "Pink",
-      "Black"
+      "Green",
+      "Yellow"
     ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 51,
-    "category": "Colors Shapes",
+    "answer": "Green",
     "ageMin": 2,
-    "ageMax": 15,
+    "ageMax": 6,
     "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 52,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 53,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 54,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 55,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 56,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 57,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 58,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 59,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 60,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 61,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 62,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 63,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 64,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 65,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 66,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 67,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 68,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 69,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 70,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 71,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 72,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 73,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 74,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 75,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 76,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 77,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 78,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 79,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 80,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 81,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 82,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 83,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 84,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 85,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 86,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 87,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 88,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 89,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 90,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 91,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 92,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 93,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 94,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 95,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 96,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 97,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 98,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 99,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 100,
-    "category": "Colors Shapes",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What color is a banana?",
-    "options": [
-      "Yellow",
-      "Blue",
-      "Pink",
-      "Black"
-    ],
-    "answer": "Yellow",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "fact": "Learning through play is fun."
   }
 ]

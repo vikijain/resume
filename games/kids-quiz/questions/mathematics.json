@@ -1,4002 +1,802 @@
 [
   {
     "id": 1,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 11 + 9?",
+    "category": "mathematics",
+    "question": "What is 2 + 2?",
     "options": [
-      "20",
-      "22",
-      "21",
-      "19"
+      "4",
+      "5",
+      "3",
+      "6"
     ],
-    "answer": "20",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "4",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 2,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 17 + 5?",
+    "category": "mathematics",
+    "question": "What is 3 + 3?",
     "options": [
-      "22",
-      "21",
-      "23",
-      "24"
+      "6",
+      "7",
+      "5",
+      "8"
     ],
-    "answer": "22",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "6",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 3,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 7 + 7?",
+    "category": "mathematics",
+    "question": "What is 4 + 4?",
     "options": [
-      "16",
-      "13",
-      "15",
-      "14"
+      "8",
+      "9",
+      "7",
+      "10"
     ],
-    "answer": "14",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "8",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 4,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 7 + 13?",
+    "category": "mathematics",
+    "question": "What is 5 + 5?",
     "options": [
-      "20",
-      "22",
-      "21",
-      "19"
+      "10",
+      "11",
+      "9",
+      "12"
     ],
-    "answer": "20",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "10",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 5,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 14 + 14?",
+    "category": "mathematics",
+    "question": "What is 6 + 6?",
     "options": [
-      "27",
-      "28",
-      "29",
-      "30"
+      "12",
+      "13",
+      "11",
+      "14"
     ],
-    "answer": "28",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "12",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 6,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 16 + 16?",
+    "category": "mathematics",
+    "question": "What is 7 + 7?",
     "options": [
-      "32",
-      "31",
-      "33",
-      "34"
+      "14",
+      "15",
+      "13",
+      "16"
     ],
-    "answer": "32",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "14",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 7,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 13 + 5?",
+    "category": "mathematics",
+    "question": "What is 8 + 8?",
     "options": [
-      "18",
-      "20",
+      "16",
       "17",
-      "19"
+      "15",
+      "18"
     ],
-    "answer": "18",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "16",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 8,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 11 + 6?",
+    "category": "mathematics",
+    "question": "What is 9 + 9?",
     "options": [
       "18",
-      "16",
+      "19",
       "17",
-      "19"
+      "20"
     ],
-    "answer": "17",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "18",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 9,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 12 + 5?",
+    "category": "mathematics",
+    "question": "What is 10 + 1?",
     "options": [
-      "18",
-      "16",
-      "17",
-      "19"
+      "11",
+      "12",
+      "10",
+      "13"
     ],
-    "answer": "17",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "11",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 10,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 16 + 19?",
+    "category": "mathematics",
+    "question": "What is 11 + 2?",
     "options": [
-      "37",
-      "36",
-      "35",
-      "34"
+      "13",
+      "14",
+      "12",
+      "15"
     ],
-    "answer": "35",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "13",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 11,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 9 + 8?",
+    "category": "mathematics",
+    "question": "What is 12 + 3?",
     "options": [
-      "18",
+      "15",
       "16",
-      "17",
-      "19"
+      "14",
+      "17"
     ],
-    "answer": "17",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "15",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 12,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 13 + 5?",
+    "category": "mathematics",
+    "question": "What is 1 + 4?",
     "options": [
-      "18",
-      "20",
-      "17",
-      "19"
+      "5",
+      "6",
+      "4",
+      "7"
     ],
-    "answer": "18",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "5",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 13,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 20 + 15?",
+    "category": "mathematics",
+    "question": "What is 2 + 5?",
     "options": [
-      "37",
-      "36",
-      "35",
-      "34"
+      "7",
+      "8",
+      "6",
+      "9"
     ],
-    "answer": "35",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "7",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 14,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 14 + 17?",
+    "category": "mathematics",
+    "question": "What is 3 + 6?",
     "options": [
-      "32",
-      "33",
-      "31",
-      "30"
+      "9",
+      "10",
+      "8",
+      "11"
     ],
-    "answer": "31",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "9",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 15,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 10 + 8?",
+    "category": "mathematics",
+    "question": "What is 4 + 7?",
     "options": [
-      "18",
-      "20",
-      "17",
-      "19"
+      "11",
+      "12",
+      "10",
+      "13"
     ],
-    "answer": "18",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "11",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 16,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 19 + 10?",
+    "category": "mathematics",
+    "question": "What is 5 + 8?",
     "options": [
-      "30",
-      "28",
-      "29",
-      "31"
+      "13",
+      "14",
+      "12",
+      "15"
     ],
-    "answer": "29",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "13",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 17,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 13 + 18?",
+    "category": "mathematics",
+    "question": "What is 6 + 9?",
     "options": [
-      "32",
-      "33",
-      "31",
-      "30"
+      "15",
+      "16",
+      "14",
+      "17"
     ],
-    "answer": "31",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "15",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 18,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 5 + 5?",
+    "category": "mathematics",
+    "question": "What is 7 + 1?",
     "options": [
+      "8",
       "9",
-      "11",
-      "12",
+      "7",
       "10"
     ],
-    "answer": "10",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "8",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 19,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 12 + 18?",
+    "category": "mathematics",
+    "question": "What is 8 + 2?",
     "options": [
-      "29",
-      "30",
-      "31",
-      "32"
+      "10",
+      "11",
+      "9",
+      "12"
     ],
-    "answer": "30",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "10",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 20,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 2 + 13?",
+    "category": "mathematics",
+    "question": "What is 9 + 3?",
     "options": [
-      "16",
-      "15",
-      "17",
+      "12",
+      "13",
+      "11",
       "14"
     ],
-    "answer": "15",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "12",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 21,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 2 + 4?",
+    "category": "mathematics",
+    "question": "What is 10 + 4?",
     "options": [
-      "6",
-      "8",
-      "7",
-      "5"
+      "14",
+      "15",
+      "13",
+      "16"
     ],
-    "answer": "6",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "14",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 22,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 14 + 6?",
+    "category": "mathematics",
+    "question": "What is 11 + 5?",
     "options": [
-      "20",
-      "22",
-      "21",
-      "19"
+      "16",
+      "17",
+      "15",
+      "18"
     ],
-    "answer": "20",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "16",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
     "id": 23,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 19 + 3?",
-    "options": [
-      "22",
-      "21",
-      "23",
-      "24"
-    ],
-    "answer": "22",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 24,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 2 + 17?",
-    "options": [
-      "18",
-      "20",
-      "21",
-      "19"
-    ],
-    "answer": "19",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 25,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 10 + 17?",
-    "options": [
-      "27",
-      "28",
-      "26",
-      "29"
-    ],
-    "answer": "27",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 26,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 2 + 6?",
-    "options": [
-      "9",
-      "7",
-      "8",
-      "10"
-    ],
-    "answer": "8",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 27,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 8 + 16?",
-    "options": [
-      "23",
-      "26",
-      "25",
-      "24"
-    ],
-    "answer": "24",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 28,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 3 + 4?",
-    "options": [
-      "6",
-      "8",
-      "7",
-      "9"
-    ],
-    "answer": "7",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 29,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 16 + 6?",
-    "options": [
-      "22",
-      "21",
-      "23",
-      "24"
-    ],
-    "answer": "22",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 30,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 5 + 6?",
-    "options": [
-      "12",
-      "11",
-      "13",
-      "10"
-    ],
-    "answer": "11",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 31,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 14 + 17?",
-    "options": [
-      "32",
-      "33",
-      "31",
-      "30"
-    ],
-    "answer": "31",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 32,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 1 + 8?",
-    "options": [
-      "9",
-      "8",
-      "10",
-      "11"
-    ],
-    "answer": "9",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 33,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 4 + 7?",
-    "options": [
-      "12",
-      "11",
-      "13",
-      "10"
-    ],
-    "answer": "11",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 34,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 20 + 13?",
-    "options": [
-      "32",
-      "35",
-      "33",
-      "34"
-    ],
-    "answer": "33",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 35,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 20 + 14?",
-    "options": [
-      "36",
-      "35",
-      "33",
-      "34"
-    ],
-    "answer": "34",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 36,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 19 + 4?",
-    "options": [
-      "22",
-      "25",
-      "23",
-      "24"
-    ],
-    "answer": "23",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 37,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 3 + 9?",
-    "options": [
-      "12",
-      "11",
-      "13",
-      "14"
-    ],
-    "answer": "12",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 38,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 8 + 8?",
-    "options": [
-      "18",
-      "16",
-      "17",
-      "15"
-    ],
-    "answer": "16",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 39,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 18 + 11?",
-    "options": [
-      "30",
-      "28",
-      "29",
-      "31"
-    ],
-    "answer": "29",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 40,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 1 + 2?",
-    "options": [
-      "3",
-      "2",
-      "5",
-      "4"
-    ],
-    "answer": "3",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 41,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 2 + 6?",
-    "options": [
-      "9",
-      "7",
-      "8",
-      "10"
-    ],
-    "answer": "8",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 42,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 1 + 14?",
-    "options": [
-      "16",
-      "15",
-      "17",
-      "14"
-    ],
-    "answer": "15",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 43,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 8 + 2?",
-    "options": [
-      "9",
-      "11",
-      "12",
-      "10"
-    ],
-    "answer": "10",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 44,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 6 + 4?",
-    "options": [
-      "9",
-      "11",
-      "12",
-      "10"
-    ],
-    "answer": "10",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 45,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 10 + 3?",
-    "options": [
-      "12",
-      "13",
-      "15",
-      "14"
-    ],
-    "answer": "13",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 46,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 6 + 4?",
-    "options": [
-      "9",
-      "11",
-      "12",
-      "10"
-    ],
-    "answer": "10",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 47,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 15 + 14?",
-    "options": [
-      "30",
-      "28",
-      "29",
-      "31"
-    ],
-    "answer": "29",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 48,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 4 + 12?",
-    "options": [
-      "18",
-      "16",
-      "17",
-      "15"
-    ],
-    "answer": "16",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 49,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 16 + 1?",
-    "options": [
-      "18",
-      "16",
-      "17",
-      "19"
-    ],
-    "answer": "17",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 50,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 15 + 19?",
-    "options": [
-      "36",
-      "35",
-      "33",
-      "34"
-    ],
-    "answer": "34",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 51,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 4 + 4?",
-    "options": [
-      "9",
-      "7",
-      "8",
-      "10"
-    ],
-    "answer": "8",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 52,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 6 + 12?",
-    "options": [
-      "18",
-      "20",
-      "17",
-      "19"
-    ],
-    "answer": "18",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 53,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 3 + 8?",
-    "options": [
-      "12",
-      "11",
-      "13",
-      "10"
-    ],
-    "answer": "11",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 54,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 7 + 3?",
-    "options": [
-      "9",
-      "11",
-      "12",
-      "10"
-    ],
-    "answer": "10",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 55,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 17 + 20?",
-    "options": [
-      "39",
-      "36",
-      "38",
-      "37"
-    ],
-    "answer": "37",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 56,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 13 + 7?",
-    "options": [
-      "20",
-      "22",
-      "21",
-      "19"
-    ],
-    "answer": "20",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 57,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 2 + 15?",
-    "options": [
-      "18",
-      "16",
-      "17",
-      "19"
-    ],
-    "answer": "17",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 58,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 16 + 4?",
-    "options": [
-      "20",
-      "22",
-      "21",
-      "19"
-    ],
-    "answer": "20",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 59,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 10 + 20?",
-    "options": [
-      "29",
-      "30",
-      "31",
-      "32"
-    ],
-    "answer": "30",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 60,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 7 + 13?",
-    "options": [
-      "20",
-      "22",
-      "21",
-      "19"
-    ],
-    "answer": "20",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 61,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 6 + 14?",
-    "options": [
-      "20",
-      "22",
-      "21",
-      "19"
-    ],
-    "answer": "20",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 62,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 18 + 5?",
-    "options": [
-      "22",
-      "25",
-      "23",
-      "24"
-    ],
-    "answer": "23",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 63,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 10 + 12?",
-    "options": [
-      "22",
-      "21",
-      "23",
-      "24"
-    ],
-    "answer": "22",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 64,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 5 + 17?",
-    "options": [
-      "22",
-      "21",
-      "23",
-      "24"
-    ],
-    "answer": "22",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 65,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 14 + 7?",
-    "options": [
-      "20",
-      "22",
-      "21",
-      "23"
-    ],
-    "answer": "21",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 66,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 18 + 6?",
-    "options": [
-      "23",
-      "26",
-      "25",
-      "24"
-    ],
-    "answer": "24",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 67,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 4 + 2?",
-    "options": [
-      "6",
-      "8",
-      "7",
-      "5"
-    ],
-    "answer": "6",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 68,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 15 + 2?",
-    "options": [
-      "18",
-      "16",
-      "17",
-      "19"
-    ],
-    "answer": "17",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 69,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 3 + 6?",
-    "options": [
-      "9",
-      "8",
-      "10",
-      "11"
-    ],
-    "answer": "9",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 70,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 14 + 19?",
-    "options": [
-      "32",
-      "35",
-      "33",
-      "34"
-    ],
-    "answer": "33",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 71,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 8 + 12?",
-    "options": [
-      "20",
-      "22",
-      "21",
-      "19"
-    ],
-    "answer": "20",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 72,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 18 + 2?",
-    "options": [
-      "20",
-      "22",
-      "21",
-      "19"
-    ],
-    "answer": "20",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 73,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 12 + 19?",
-    "options": [
-      "32",
-      "33",
-      "31",
-      "30"
-    ],
-    "answer": "31",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 74,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 7 + 1?",
-    "options": [
-      "9",
-      "7",
-      "8",
-      "10"
-    ],
-    "answer": "8",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 75,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 10 + 5?",
-    "options": [
-      "16",
-      "15",
-      "17",
-      "14"
-    ],
-    "answer": "15",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 76,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 9 + 2?",
-    "options": [
-      "12",
-      "11",
-      "13",
-      "10"
-    ],
-    "answer": "11",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 77,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 6 + 16?",
-    "options": [
-      "22",
-      "21",
-      "23",
-      "24"
-    ],
-    "answer": "22",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 78,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 6 + 11?",
-    "options": [
-      "18",
-      "16",
-      "17",
-      "19"
-    ],
-    "answer": "17",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 79,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 15 + 6?",
-    "options": [
-      "20",
-      "22",
-      "21",
-      "23"
-    ],
-    "answer": "21",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 80,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 11 + 7?",
-    "options": [
-      "18",
-      "20",
-      "17",
-      "19"
-    ],
-    "answer": "18",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 81,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 20 + 10?",
-    "options": [
-      "29",
-      "30",
-      "31",
-      "32"
-    ],
-    "answer": "30",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 82,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 18 + 8?",
-    "options": [
-      "27",
-      "28",
-      "26",
-      "25"
-    ],
-    "answer": "26",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 83,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 15 + 7?",
-    "options": [
-      "22",
-      "21",
-      "23",
-      "24"
-    ],
-    "answer": "22",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 84,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 4 + 20?",
-    "options": [
-      "23",
-      "26",
-      "25",
-      "24"
-    ],
-    "answer": "24",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 85,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 2 + 11?",
-    "options": [
-      "12",
-      "13",
-      "15",
-      "14"
-    ],
-    "answer": "13",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 86,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 6 + 4?",
-    "options": [
-      "9",
-      "11",
-      "12",
-      "10"
-    ],
-    "answer": "10",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 87,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 10 + 19?",
-    "options": [
-      "30",
-      "28",
-      "29",
-      "31"
-    ],
-    "answer": "29",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 88,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 20 + 15?",
-    "options": [
-      "37",
-      "36",
-      "35",
-      "34"
-    ],
-    "answer": "35",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 89,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 19 + 10?",
-    "options": [
-      "30",
-      "28",
-      "29",
-      "31"
-    ],
-    "answer": "29",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 90,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 8 + 12?",
-    "options": [
-      "20",
-      "22",
-      "21",
-      "19"
-    ],
-    "answer": "20",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 91,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 20 + 17?",
-    "options": [
-      "39",
-      "36",
-      "38",
-      "37"
-    ],
-    "answer": "37",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 92,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 18 + 17?",
-    "options": [
-      "37",
-      "36",
-      "35",
-      "34"
-    ],
-    "answer": "35",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 93,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 1 + 15?",
-    "options": [
-      "18",
-      "16",
-      "17",
-      "15"
-    ],
-    "answer": "16",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 94,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 20 + 15?",
-    "options": [
-      "37",
-      "36",
-      "35",
-      "34"
-    ],
-    "answer": "35",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 95,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 14 + 12?",
-    "options": [
-      "27",
-      "28",
-      "26",
-      "25"
-    ],
-    "answer": "26",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 96,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 6 + 3?",
-    "options": [
-      "9",
-      "8",
-      "10",
-      "11"
-    ],
-    "answer": "9",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 97,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 18 + 19?",
-    "options": [
-      "39",
-      "36",
-      "38",
-      "37"
-    ],
-    "answer": "37",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 98,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 4 + 20?",
-    "options": [
-      "23",
-      "26",
-      "25",
-      "24"
-    ],
-    "answer": "24",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 99,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 20 + 17?",
-    "options": [
-      "39",
-      "36",
-      "38",
-      "37"
-    ],
-    "answer": "37",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 100,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 9 + 4?",
-    "options": [
-      "12",
-      "13",
-      "15",
-      "14"
-    ],
-    "answer": "13",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 101,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 3 + 2?",
-    "options": [
-      "6",
-      "4",
-      "7",
-      "5"
-    ],
-    "answer": "5",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 102,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 17 + 18?",
-    "options": [
-      "37",
-      "36",
-      "35",
-      "34"
-    ],
-    "answer": "35",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 103,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 2 + 13?",
-    "options": [
-      "16",
-      "15",
-      "17",
-      "14"
-    ],
-    "answer": "15",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 104,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 15 + 18?",
-    "options": [
-      "32",
-      "35",
-      "33",
-      "34"
-    ],
-    "answer": "33",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 105,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 20 + 15?",
-    "options": [
-      "37",
-      "36",
-      "35",
-      "34"
-    ],
-    "answer": "35",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 106,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 6 + 10?",
-    "options": [
-      "18",
-      "16",
-      "17",
-      "15"
-    ],
-    "answer": "16",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 107,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 19 + 16?",
-    "options": [
-      "37",
-      "36",
-      "35",
-      "34"
-    ],
-    "answer": "35",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 108,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 4 + 9?",
-    "options": [
-      "12",
-      "13",
-      "15",
-      "14"
-    ],
-    "answer": "13",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 109,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 3 + 11?",
-    "options": [
-      "16",
-      "13",
-      "15",
-      "14"
-    ],
-    "answer": "14",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 110,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 5 + 15?",
-    "options": [
-      "20",
-      "22",
-      "21",
-      "19"
-    ],
-    "answer": "20",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 111,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 8 + 4?",
-    "options": [
-      "12",
-      "11",
-      "13",
-      "14"
-    ],
-    "answer": "12",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 112,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 3 + 18?",
-    "options": [
-      "20",
-      "22",
-      "21",
-      "23"
-    ],
-    "answer": "21",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 113,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
+    "category": "mathematics",
     "question": "What is 12 + 6?",
     "options": [
       "18",
-      "20",
+      "19",
       "17",
-      "19"
+      "20"
     ],
     "answer": "18",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
-    "id": 114,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 3 + 3?",
+    "id": 24,
+    "category": "mathematics",
+    "question": "What is 1 + 7?",
     "options": [
-      "6",
       "8",
-      "7",
-      "5"
-    ],
-    "answer": "6",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 115,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 2 + 11?",
-    "options": [
-      "12",
-      "13",
-      "15",
-      "14"
-    ],
-    "answer": "13",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 116,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 9 + 14?",
-    "options": [
-      "22",
-      "25",
-      "23",
-      "24"
-    ],
-    "answer": "23",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 117,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 8 + 18?",
-    "options": [
-      "27",
-      "28",
-      "26",
-      "25"
-    ],
-    "answer": "26",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 118,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 14 + 10?",
-    "options": [
-      "23",
-      "26",
-      "25",
-      "24"
-    ],
-    "answer": "24",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 119,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 2 + 3?",
-    "options": [
-      "6",
-      "4",
-      "7",
-      "5"
-    ],
-    "answer": "5",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 120,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 4 + 5?",
-    "options": [
       "9",
-      "8",
+      "7",
+      "10"
+    ],
+    "answer": "8",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
+  },
+  {
+    "id": 25,
+    "category": "mathematics",
+    "question": "What is 2 + 8?",
+    "options": [
       "10",
-      "11"
-    ],
-    "answer": "9",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 121,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 3 + 7?",
-    "options": [
-      "9",
       "11",
-      "12",
-      "10"
+      "9",
+      "12"
     ],
     "answer": "10",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
-    "id": 122,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 13 + 6?",
-    "options": [
-      "18",
-      "20",
-      "21",
-      "19"
-    ],
-    "answer": "19",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 123,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 2 + 6?",
-    "options": [
-      "9",
-      "7",
-      "8",
-      "10"
-    ],
-    "answer": "8",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 124,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 5 + 14?",
-    "options": [
-      "18",
-      "20",
-      "21",
-      "19"
-    ],
-    "answer": "19",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 125,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 15 + 1?",
-    "options": [
-      "18",
-      "16",
-      "17",
-      "15"
-    ],
-    "answer": "16",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 126,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 12 + 17?",
-    "options": [
-      "30",
-      "28",
-      "29",
-      "31"
-    ],
-    "answer": "29",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 127,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 2 + 17?",
-    "options": [
-      "18",
-      "20",
-      "21",
-      "19"
-    ],
-    "answer": "19",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 128,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 17 + 9?",
-    "options": [
-      "27",
-      "28",
-      "26",
-      "25"
-    ],
-    "answer": "26",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 129,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 16 + 12?",
-    "options": [
-      "27",
-      "28",
-      "29",
-      "30"
-    ],
-    "answer": "28",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 130,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 10 + 17?",
-    "options": [
-      "27",
-      "28",
-      "26",
-      "29"
-    ],
-    "answer": "27",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 131,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 7 + 12?",
-    "options": [
-      "18",
-      "20",
-      "21",
-      "19"
-    ],
-    "answer": "19",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 132,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 9 + 17?",
-    "options": [
-      "27",
-      "28",
-      "26",
-      "25"
-    ],
-    "answer": "26",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 133,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 6 + 2?",
-    "options": [
-      "9",
-      "7",
-      "8",
-      "10"
-    ],
-    "answer": "8",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 134,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 10 + 1?",
+    "id": 26,
+    "category": "mathematics",
+    "question": "What is 3 + 9?",
     "options": [
       "12",
+      "13",
       "11",
-      "13",
-      "10"
-    ],
-    "answer": "11",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 135,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 5 + 10?",
-    "options": [
-      "16",
-      "15",
-      "17",
-      "14"
-    ],
-    "answer": "15",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 136,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 19 + 6?",
-    "options": [
-      "27",
-      "26",
-      "25",
-      "24"
-    ],
-    "answer": "25",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 137,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 9 + 18?",
-    "options": [
-      "27",
-      "28",
-      "26",
-      "29"
-    ],
-    "answer": "27",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 138,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 8 + 12?",
-    "options": [
-      "20",
-      "22",
-      "21",
-      "19"
-    ],
-    "answer": "20",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 139,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 17 + 8?",
-    "options": [
-      "27",
-      "26",
-      "25",
-      "24"
-    ],
-    "answer": "25",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 140,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 12 + 5?",
-    "options": [
-      "18",
-      "16",
-      "17",
-      "19"
-    ],
-    "answer": "17",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 141,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 3 + 10?",
-    "options": [
-      "12",
-      "13",
-      "15",
-      "14"
-    ],
-    "answer": "13",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 142,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 19 + 16?",
-    "options": [
-      "37",
-      "36",
-      "35",
-      "34"
-    ],
-    "answer": "35",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 143,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 19 + 9?",
-    "options": [
-      "27",
-      "28",
-      "29",
-      "30"
-    ],
-    "answer": "28",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 144,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 2 + 18?",
-    "options": [
-      "20",
-      "22",
-      "21",
-      "19"
-    ],
-    "answer": "20",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 145,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 8 + 15?",
-    "options": [
-      "22",
-      "25",
-      "23",
-      "24"
-    ],
-    "answer": "23",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 146,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 3 + 1?",
-    "options": [
-      "5",
-      "6",
-      "3",
-      "4"
-    ],
-    "answer": "4",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 147,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 17 + 9?",
-    "options": [
-      "27",
-      "28",
-      "26",
-      "25"
-    ],
-    "answer": "26",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 148,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 13 + 13?",
-    "options": [
-      "27",
-      "28",
-      "26",
-      "25"
-    ],
-    "answer": "26",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 149,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 8 + 5?",
-    "options": [
-      "12",
-      "13",
-      "15",
-      "14"
-    ],
-    "answer": "13",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 150,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 6 + 4?",
-    "options": [
-      "9",
-      "11",
-      "12",
-      "10"
-    ],
-    "answer": "10",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 151,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 7 + 5?",
-    "options": [
-      "12",
-      "11",
-      "13",
       "14"
     ],
     "answer": "12",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
-    "id": 152,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 19 + 15?",
-    "options": [
-      "36",
-      "35",
-      "33",
-      "34"
-    ],
-    "answer": "34",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 153,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 3 + 20?",
-    "options": [
-      "22",
-      "25",
-      "23",
-      "24"
-    ],
-    "answer": "23",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 154,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 4 + 13?",
-    "options": [
-      "18",
-      "16",
-      "17",
-      "19"
-    ],
-    "answer": "17",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 155,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 18 + 17?",
-    "options": [
-      "37",
-      "36",
-      "35",
-      "34"
-    ],
-    "answer": "35",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 156,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 2 + 11?",
-    "options": [
-      "12",
-      "13",
-      "15",
-      "14"
-    ],
-    "answer": "13",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 157,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 11 + 4?",
-    "options": [
-      "16",
-      "15",
-      "17",
-      "14"
-    ],
-    "answer": "15",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 158,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 16 + 10?",
-    "options": [
-      "27",
-      "28",
-      "26",
-      "25"
-    ],
-    "answer": "26",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 159,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 5 + 13?",
-    "options": [
-      "18",
-      "20",
-      "17",
-      "19"
-    ],
-    "answer": "18",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 160,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 9 + 13?",
-    "options": [
-      "22",
-      "21",
-      "23",
-      "24"
-    ],
-    "answer": "22",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 161,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 5 + 19?",
-    "options": [
-      "23",
-      "26",
-      "25",
-      "24"
-    ],
-    "answer": "24",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 162,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 18 + 9?",
-    "options": [
-      "27",
-      "28",
-      "26",
-      "29"
-    ],
-    "answer": "27",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 163,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 2 + 3?",
-    "options": [
-      "6",
-      "4",
-      "7",
-      "5"
-    ],
-    "answer": "5",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 164,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 10 + 8?",
-    "options": [
-      "18",
-      "20",
-      "17",
-      "19"
-    ],
-    "answer": "18",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 165,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 13 + 12?",
-    "options": [
-      "27",
-      "26",
-      "25",
-      "24"
-    ],
-    "answer": "25",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 166,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 11 + 13?",
-    "options": [
-      "23",
-      "26",
-      "25",
-      "24"
-    ],
-    "answer": "24",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 167,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 12 + 19?",
-    "options": [
-      "32",
-      "33",
-      "31",
-      "30"
-    ],
-    "answer": "31",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 168,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 20 + 7?",
-    "options": [
-      "27",
-      "28",
-      "26",
-      "29"
-    ],
-    "answer": "27",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 169,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 19 + 2?",
-    "options": [
-      "20",
-      "22",
-      "21",
-      "23"
-    ],
-    "answer": "21",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 170,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 12 + 10?",
-    "options": [
-      "22",
-      "21",
-      "23",
-      "24"
-    ],
-    "answer": "22",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 171,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 3 + 1?",
+    "id": 27,
+    "category": "mathematics",
+    "question": "What is 4 + 1?",
     "options": [
       "5",
       "6",
-      "3",
-      "4"
+      "4",
+      "7"
     ],
-    "answer": "4",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "5",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
-    "id": 172,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 7 + 11?",
+    "id": 28,
+    "category": "mathematics",
+    "question": "What is 5 + 2?",
     "options": [
-      "18",
-      "20",
-      "17",
-      "19"
-    ],
-    "answer": "18",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 173,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 4 + 2?",
-    "options": [
+      "7",
+      "8",
       "6",
-      "8",
-      "7",
-      "5"
-    ],
-    "answer": "6",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 174,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 10 + 17?",
-    "options": [
-      "27",
-      "28",
-      "26",
-      "29"
-    ],
-    "answer": "27",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 175,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 14 + 12?",
-    "options": [
-      "27",
-      "28",
-      "26",
-      "25"
-    ],
-    "answer": "26",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 176,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 17 + 13?",
-    "options": [
-      "29",
-      "30",
-      "31",
-      "32"
-    ],
-    "answer": "30",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 177,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 15 + 3?",
-    "options": [
-      "18",
-      "20",
-      "17",
-      "19"
-    ],
-    "answer": "18",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 178,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 5 + 13?",
-    "options": [
-      "18",
-      "20",
-      "17",
-      "19"
-    ],
-    "answer": "18",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 179,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 6 + 9?",
-    "options": [
-      "16",
-      "15",
-      "17",
-      "14"
-    ],
-    "answer": "15",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 180,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 5 + 12?",
-    "options": [
-      "18",
-      "16",
-      "17",
-      "19"
-    ],
-    "answer": "17",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 181,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 18 + 19?",
-    "options": [
-      "39",
-      "36",
-      "38",
-      "37"
-    ],
-    "answer": "37",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 182,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 11 + 20?",
-    "options": [
-      "32",
-      "33",
-      "31",
-      "30"
-    ],
-    "answer": "31",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 183,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 14 + 6?",
-    "options": [
-      "20",
-      "22",
-      "21",
-      "19"
-    ],
-    "answer": "20",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 184,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 20 + 4?",
-    "options": [
-      "23",
-      "26",
-      "25",
-      "24"
-    ],
-    "answer": "24",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 185,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 7 + 7?",
-    "options": [
-      "16",
-      "13",
-      "15",
-      "14"
-    ],
-    "answer": "14",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 186,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 6 + 13?",
-    "options": [
-      "18",
-      "20",
-      "21",
-      "19"
-    ],
-    "answer": "19",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 187,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 9 + 18?",
-    "options": [
-      "27",
-      "28",
-      "26",
-      "29"
-    ],
-    "answer": "27",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 188,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 18 + 2?",
-    "options": [
-      "20",
-      "22",
-      "21",
-      "19"
-    ],
-    "answer": "20",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 189,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 5 + 6?",
-    "options": [
-      "12",
-      "11",
-      "13",
-      "10"
-    ],
-    "answer": "11",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 190,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 15 + 20?",
-    "options": [
-      "37",
-      "36",
-      "35",
-      "34"
-    ],
-    "answer": "35",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 191,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 18 + 18?",
-    "options": [
-      "36",
-      "35",
-      "38",
-      "37"
-    ],
-    "answer": "36",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 192,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 10 + 12?",
-    "options": [
-      "22",
-      "21",
-      "23",
-      "24"
-    ],
-    "answer": "22",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 193,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 1 + 14?",
-    "options": [
-      "16",
-      "15",
-      "17",
-      "14"
-    ],
-    "answer": "15",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 194,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 3 + 11?",
-    "options": [
-      "16",
-      "13",
-      "15",
-      "14"
-    ],
-    "answer": "14",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 195,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 14 + 7?",
-    "options": [
-      "20",
-      "22",
-      "21",
-      "23"
-    ],
-    "answer": "21",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 196,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 5 + 8?",
-    "options": [
-      "12",
-      "13",
-      "15",
-      "14"
-    ],
-    "answer": "13",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 197,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 4 + 10?",
-    "options": [
-      "16",
-      "13",
-      "15",
-      "14"
-    ],
-    "answer": "14",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 198,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 13 + 11?",
-    "options": [
-      "23",
-      "26",
-      "25",
-      "24"
-    ],
-    "answer": "24",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 199,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 19 + 7?",
-    "options": [
-      "27",
-      "28",
-      "26",
-      "25"
-    ],
-    "answer": "26",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 200,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 6 + 2?",
-    "options": [
-      "9",
-      "7",
-      "8",
-      "10"
-    ],
-    "answer": "8",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 201,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 11 + 18?",
-    "options": [
-      "30",
-      "28",
-      "29",
-      "31"
-    ],
-    "answer": "29",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 202,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 9 + 17?",
-    "options": [
-      "27",
-      "28",
-      "26",
-      "25"
-    ],
-    "answer": "26",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 203,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 3 + 6?",
-    "options": [
-      "9",
-      "8",
-      "10",
-      "11"
-    ],
-    "answer": "9",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 204,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 18 + 5?",
-    "options": [
-      "22",
-      "25",
-      "23",
-      "24"
-    ],
-    "answer": "23",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 205,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 7 + 20?",
-    "options": [
-      "27",
-      "28",
-      "26",
-      "29"
-    ],
-    "answer": "27",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 206,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 7 + 18?",
-    "options": [
-      "27",
-      "26",
-      "25",
-      "24"
-    ],
-    "answer": "25",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 207,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 10 + 13?",
-    "options": [
-      "22",
-      "25",
-      "23",
-      "24"
-    ],
-    "answer": "23",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 208,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 9 + 2?",
-    "options": [
-      "12",
-      "11",
-      "13",
-      "10"
-    ],
-    "answer": "11",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 209,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 7 + 7?",
-    "options": [
-      "16",
-      "13",
-      "15",
-      "14"
-    ],
-    "answer": "14",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 210,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 9 + 16?",
-    "options": [
-      "27",
-      "26",
-      "25",
-      "24"
-    ],
-    "answer": "25",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 211,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 2 + 5?",
-    "options": [
-      "6",
-      "8",
-      "7",
       "9"
     ],
     "answer": "7",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
-    "id": 212,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 1 + 12?",
-    "options": [
-      "12",
-      "13",
-      "15",
-      "14"
-    ],
-    "answer": "13",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 213,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 20 + 8?",
-    "options": [
-      "27",
-      "28",
-      "29",
-      "30"
-    ],
-    "answer": "28",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 214,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 15 + 20?",
-    "options": [
-      "37",
-      "36",
-      "35",
-      "34"
-    ],
-    "answer": "35",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 215,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 20 + 3?",
-    "options": [
-      "22",
-      "25",
-      "23",
-      "24"
-    ],
-    "answer": "23",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 216,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 5 + 10?",
-    "options": [
-      "16",
-      "15",
-      "17",
-      "14"
-    ],
-    "answer": "15",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 217,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 4 + 12?",
-    "options": [
-      "18",
-      "16",
-      "17",
-      "15"
-    ],
-    "answer": "16",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 218,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 10 + 15?",
-    "options": [
-      "27",
-      "26",
-      "25",
-      "24"
-    ],
-    "answer": "25",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 219,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 1 + 3?",
-    "options": [
-      "5",
-      "6",
-      "3",
-      "4"
-    ],
-    "answer": "4",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 220,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 5 + 10?",
-    "options": [
-      "16",
-      "15",
-      "17",
-      "14"
-    ],
-    "answer": "15",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 221,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 10 + 3?",
-    "options": [
-      "12",
-      "13",
-      "15",
-      "14"
-    ],
-    "answer": "13",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 222,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 13 + 4?",
-    "options": [
-      "18",
-      "16",
-      "17",
-      "19"
-    ],
-    "answer": "17",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 223,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 8 + 1?",
+    "id": 29,
+    "category": "mathematics",
+    "question": "What is 6 + 3?",
     "options": [
       "9",
-      "8",
       "10",
+      "8",
       "11"
     ],
     "answer": "9",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
-    "id": 224,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 14 + 18?",
+    "id": 30,
+    "category": "mathematics",
+    "question": "What is 7 + 4?",
     "options": [
-      "32",
-      "31",
-      "33",
-      "34"
+      "11",
+      "12",
+      "10",
+      "13"
     ],
-    "answer": "32",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "11",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
-    "id": 225,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 3 + 15?",
+    "id": 31,
+    "category": "mathematics",
+    "question": "What is 8 + 5?",
     "options": [
-      "18",
-      "20",
-      "17",
-      "19"
-    ],
-    "answer": "18",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 226,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 1 + 19?",
-    "options": [
-      "20",
-      "22",
-      "21",
-      "19"
-    ],
-    "answer": "20",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 227,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 20 + 15?",
-    "options": [
-      "37",
-      "36",
-      "35",
-      "34"
-    ],
-    "answer": "35",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 228,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 6 + 15?",
-    "options": [
-      "20",
-      "22",
-      "21",
-      "23"
-    ],
-    "answer": "21",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 229,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 3 + 2?",
-    "options": [
-      "6",
-      "4",
-      "7",
-      "5"
-    ],
-    "answer": "5",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 230,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 8 + 8?",
-    "options": [
-      "18",
-      "16",
-      "17",
+      "13",
+      "14",
+      "12",
       "15"
     ],
-    "answer": "16",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "13",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
-    "id": 231,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 3 + 16?",
+    "id": 32,
+    "category": "mathematics",
+    "question": "What is 9 + 6?",
     "options": [
+      "15",
+      "16",
+      "14",
+      "17"
+    ],
+    "answer": "15",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
+  },
+  {
+    "id": 33,
+    "category": "mathematics",
+    "question": "What is 10 + 7?",
+    "options": [
+      "17",
       "18",
-      "20",
-      "21",
+      "16",
       "19"
     ],
-    "answer": "19",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "17",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
-    "id": 232,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 17 + 7?",
+    "id": 34,
+    "category": "mathematics",
+    "question": "What is 11 + 8?",
     "options": [
-      "23",
-      "26",
-      "25",
-      "24"
-    ],
-    "answer": "24",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 233,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 16 + 5?",
-    "options": [
+      "19",
       "20",
-      "22",
+      "18",
+      "21"
+    ],
+    "answer": "19",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
+  },
+  {
+    "id": 35,
+    "category": "mathematics",
+    "question": "What is 12 + 9?",
+    "options": [
       "21",
+      "22",
+      "20",
       "23"
     ],
     "answer": "21",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
-    "id": 234,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 11 + 17?",
-    "options": [
-      "27",
-      "28",
-      "29",
-      "30"
-    ],
-    "answer": "28",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 235,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 12 + 10?",
-    "options": [
-      "22",
-      "21",
-      "23",
-      "24"
-    ],
-    "answer": "22",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 236,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 1 + 18?",
-    "options": [
-      "18",
-      "20",
-      "21",
-      "19"
-    ],
-    "answer": "19",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 237,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 10 + 5?",
-    "options": [
-      "16",
-      "15",
-      "17",
-      "14"
-    ],
-    "answer": "15",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 238,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 14 + 6?",
-    "options": [
-      "20",
-      "22",
-      "21",
-      "19"
-    ],
-    "answer": "20",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 239,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 7 + 3?",
-    "options": [
-      "9",
-      "11",
-      "12",
-      "10"
-    ],
-    "answer": "10",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 240,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
+    "id": 36,
+    "category": "mathematics",
     "question": "What is 1 + 1?",
     "options": [
-      "3",
-      "4",
       "2",
-      "1"
+      "3",
+      "1",
+      "4"
     ],
     "answer": "2",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
-    "id": 241,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 15 + 17?",
+    "id": 37,
+    "category": "mathematics",
+    "question": "What is 2 + 2?",
     "options": [
-      "32",
-      "31",
-      "33",
-      "34"
+      "4",
+      "5",
+      "3",
+      "6"
     ],
-    "answer": "32",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "4",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
-    "id": 242,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 8 + 2?",
-    "options": [
-      "9",
-      "11",
-      "12",
-      "10"
-    ],
-    "answer": "10",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 243,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
+    "id": 38,
+    "category": "mathematics",
     "question": "What is 3 + 3?",
     "options": [
       "6",
-      "8",
       "7",
-      "5"
+      "5",
+      "8"
     ],
     "answer": "6",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
-    "id": 244,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 9 + 1?",
+    "id": 39,
+    "category": "mathematics",
+    "question": "What is 4 + 4?",
     "options": [
-      "9",
-      "11",
-      "12",
-      "10"
-    ],
-    "answer": "10",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 245,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 6 + 10?",
-    "options": [
-      "18",
-      "16",
-      "17",
-      "15"
-    ],
-    "answer": "16",
-    "fact": "Learning through play helps build knowledge and confidence."
-  },
-  {
-    "id": 246,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 5 + 3?",
-    "options": [
+      "8",
       "9",
       "7",
-      "8",
       "10"
     ],
     "answer": "8",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
-    "id": 247,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 17 + 2?",
+    "id": 40,
+    "category": "mathematics",
+    "question": "What is 5 + 5?",
     "options": [
-      "18",
-      "20",
-      "21",
-      "19"
+      "10",
+      "11",
+      "9",
+      "12"
     ],
-    "answer": "19",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "10",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
-    "id": 248,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 15 + 15?",
+    "id": 41,
+    "category": "mathematics",
+    "question": "What is 6 + 6?",
     "options": [
-      "29",
-      "30",
-      "31",
-      "32"
+      "12",
+      "13",
+      "11",
+      "14"
     ],
-    "answer": "30",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "12",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
-    "id": 249,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 17 + 13?",
+    "id": 42,
+    "category": "mathematics",
+    "question": "What is 7 + 7?",
     "options": [
-      "29",
-      "30",
-      "31",
-      "32"
+      "14",
+      "15",
+      "13",
+      "16"
     ],
-    "answer": "30",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "answer": "14",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   },
   {
-    "id": 250,
-    "category": "Mathematics",
-    "ageMin": 2,
-    "ageMax": 15,
-    "difficulty": "easy",
-    "question": "What is 13 + 3?",
+    "id": 43,
+    "category": "mathematics",
+    "question": "What is 8 + 8?",
     "options": [
-      "18",
       "16",
       "17",
-      "15"
+      "15",
+      "18"
     ],
     "answer": "16",
-    "fact": "Learning through play helps build knowledge and confidence."
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
+  },
+  {
+    "id": 44,
+    "category": "mathematics",
+    "question": "What is 9 + 9?",
+    "options": [
+      "18",
+      "19",
+      "17",
+      "20"
+    ],
+    "answer": "18",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
+  },
+  {
+    "id": 45,
+    "category": "mathematics",
+    "question": "What is 10 + 1?",
+    "options": [
+      "11",
+      "12",
+      "10",
+      "13"
+    ],
+    "answer": "11",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
+  },
+  {
+    "id": 46,
+    "category": "mathematics",
+    "question": "What is 11 + 2?",
+    "options": [
+      "13",
+      "14",
+      "12",
+      "15"
+    ],
+    "answer": "13",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
+  },
+  {
+    "id": 47,
+    "category": "mathematics",
+    "question": "What is 12 + 3?",
+    "options": [
+      "15",
+      "16",
+      "14",
+      "17"
+    ],
+    "answer": "15",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
+  },
+  {
+    "id": 48,
+    "category": "mathematics",
+    "question": "What is 1 + 4?",
+    "options": [
+      "5",
+      "6",
+      "4",
+      "7"
+    ],
+    "answer": "5",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
+  },
+  {
+    "id": 49,
+    "category": "mathematics",
+    "question": "What is 2 + 5?",
+    "options": [
+      "7",
+      "8",
+      "6",
+      "9"
+    ],
+    "answer": "7",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
+  },
+  {
+    "id": 50,
+    "category": "mathematics",
+    "question": "What is 3 + 6?",
+    "options": [
+      "9",
+      "10",
+      "8",
+      "11"
+    ],
+    "answer": "9",
+    "ageMin": 5,
+    "ageMax": 10,
+    "difficulty": "easy",
+    "fact": "Learning through play is fun."
   }
 ]
