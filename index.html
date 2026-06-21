@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Vikalp Jain | Senior Engineering Manager</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+:root{
+    --teal1:#0f766e;
+    --teal2:#115e59;
+    --teal3:#134e4a;
+    --accent:#5eead4;
+    --white:#ffffff;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:linear-gradient(135deg,var(--teal1),var(--teal2),var(--teal3));
+    color:white;
+}
+
+nav{
+    position:fixed;
+    width:100%;
+    top:0;
+    z-index:999;
+    backdrop-filter:blur(10px);
+    background:rgba(0,0,0,0.2);
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+    gap:30px;
+    padding:20px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    font-weight:500;
+}
+
+nav a:hover{
+    color:var(--accent);
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:40px;
+}
+
+.hero-content{
+    max-width:900px;
+}
+
+.hero h1{
+    font-size:4rem;
+    margin-bottom:10px;
+}
+
+.hero h2{
+    color:var(--accent);
+    margin-bottom:25px;
+    font-weight:500;
+}
+
+.hero p{
+    font-size:1.1rem;
+    line-height:1.8;
+}
+
+.tags{
+    margin-top:30px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:12px;
+}
+
+.tag{
+    padding:10px 18px;
+    border-radius:50px;
+    background:rgba(255,255,255,0.15);
+    backdrop-filter:blur(10px);
+    border:1px solid rgba(255,255,255,0.2);
+}
+
+.section{
+    max-width:1200px;
+    margin:auto;
+    padding:80px 20px;
+}
+
+.section-title{
+    text-align:center;
+    font-size:2.5rem;
+    margin-bottom:50px;
+}
+
+.stats{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:rgba(255,255,255,0.12);
+    backdrop-filter:blur(10px);
+    border-radius:20px;
+    padding:30px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.stat-number{
+    font-size:3rem;
+    color:var(--accent);
+    font-weight:700;
+}
+
+.about{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:30px;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.skill{
+    padding:12px 18px;
+    border-radius:40px;
+    background:rgba(255,255,255,0.15);
+}
+
+.timeline{
+    position:relative;
+    padding-left:40px;
+}
+
+.timeline::before{
+    content:'';
+    position:absolute;
+    left:10px;
+    top:0;
+    width:4px;
+    height:100%;
+    background:var(--accent);
+}
+
+.timeline-item{
+    position:relative;
+    margin-bottom:50px;
+}
+
+.timeline-item::before{
+    content:'';
+    position:absolute;
+    left:-37px;
+    top:10px;
+    width:20px;
+    height:20px;
+    background:var(--accent);
+    border-radius:50%;
+}
+
+.timeline h3{
+    color:var(--accent);
+}
+
+.timeline span{
+    font-size:.9rem;
+    opacity:.8;
+}
+
+.contact{
+    text-align:center;
+}
+
+.contact a{
+    color:white;
+    text-decoration:none;
+    display:block;
+    margin:10px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    opacity:.7;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:2.8rem;
+}
+
+.about{
+    grid-template-columns:1fr;
+}
+
+nav ul{
+    flex-wrap:wrap;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>Vikalp Jain</h1>
+
+<h2>Senior Engineering Manager</h2>
+
+<p>
+Building high-performance real-time financial systems with Java,
+Kafka, Spring Boot and Cloud technologies. Over 10 years of
+experience across Investment Banking, Wealth Management and Risk Systems.
+</p>
+
+<div class="tags">
+<div class="tag">Java</div>
+<div class="tag">Spring Boot</div>
+<div class="tag">Kafka</div>
+<div class="tag">Azure</div>
+<div class="tag">AWS</div>
+<div class="tag">Microservices</div>
+<div class="tag">Leadership</div>
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="stats">
+
+<div class="card">
+<div class="stat-number counter" data-target="10">0</div>
+<h3>Years Experience</h3>
+</div>
+
+<div class="card">
+<div class="stat-number counter" data-target="3">0</div>
+<h3>Global Companies</h3>
+</div>
+
+<div class="card">
+<div class="stat-number counter" data-target="15">0</div>
+<h3>Major Projects</h3>
+</div>
+
+</div>
+
+</section>
+
+<section class="section" id="about">
+
+<h2 class="section-title">About Me</h2>
+
+<div class="about">
+
+<div class="card">
+<p>
+Currently working as Senior Manager at Morgan Stanley leading
+development initiatives for real-time margin and risk systems.
+
+Experienced in building scalable distributed systems using Java,
+Spring Boot, Kafka, Hazelcast and Cloud technologies. Worked across
+Morgan Stanley, MSCI and Sapient on mission-critical financial applications.
+</p>
+</div>
+
+<div class="card">
+<h3>Education</h3>
+<br>
+<p>B.Tech Computer Science</p>
+<p>VIT University</p>
+<p>2007 - 2011</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="section" id="skills">
+
+<h2 class="section-title">Technical Skills</h2>
+
+<div class="skills">
+
+<div class="skill">Java 8+</div>
+<div class="skill">Spring Boot</div>
+<div class="skill">Kafka</div>
+<div class="skill">Microservices</div>
+<div class="skill">JPA</div>
+<div class="skill">Hibernate</div>
+<div class="skill">Azure</div>
+<div class="skill">AWS</div>
+<div class="skill">Hazelcast</div>
+<div class="skill">GRPC</div>
+<div class="skill">Oracle</div>
+<div class="skill">Sybase</div>
+<div class="skill">Unix</div>
+<div class="skill">ReactJS</div>
+<div class="skill">Junit</div>
+<div class="skill">CI/CD</div>
+
+</div>
+
+</section>
+
+<section class="section" id="experience">
+
+<h2 class="section-title">Career Journey</h2>
+
+<div class="timeline">
+
+<div class="timeline-item card">
+<h3>Morgan Stanley</h3>
+<span>Senior Manager | 2022 - Present</span>
+<p>
+Leading development of real-time portfolio margin systems.
+Built Kafka-based event driven architecture and mentor Java developers.
+</p>
+</div>
+
+<div class="timeline-item card">
+<h3>MSCI</h3>
+<span>Senior Associate | 2019 - 2021</span>
+<p>
+Worked on real-time index calculation platform powering thousands
+of global indexes with Azure cloud modernization initiatives.
+</p>
+</div>
+
+<div class="timeline-item card">
+<h3>Sapient</h3>
+<span>Java Developer | 2011 - 2019</span>
+<p>
+Delivered solutions for Morgan Stanley, Fidelity Investments and
+Fannie Mae. Worked onsite in the United States for multiple years.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2 class="section-title">Interests</h2>
+
+<div class="stats">
+
+<div class="card">✈️ Travel</div>
+<div class="card">🎾 Tennis & Formula 1</div>
+<div class="card">🔭 Astronomy</div>
+
+</div>
+
+</section>
+
+<section class="section contact" id="contact">
+
+<h2 class="section-title">Let's Connect</h2>
+
+<a href="mailto:vikalpjain@yahoo.com">
+📧 vikalpjain@yahoo.com
+</a>
+
+<a href="https://linkedin.com/in/iVikalpJain" target="_blank">
+💼 LinkedIn Profile
+</a>
+
+<a href="https://stackoverflow.com/users/907687" target="_blank">
+💻 StackOverflow
+</a>
+
+</section>
+
+<footer>
+
+© 2026 Vikalp Jain
+
+</footer>
+
+<script>
+
+const counters=document.querySelectorAll('.counter');
+
+counters.forEach(counter=>{
+
+const update=()=>{
+
+const target=+counter.getAttribute('data-target');
+const count=+counter.innerText;
+
+const increment=target/80;
+
+if(count<target){
+
+counter.innerText=Math.ceil(count+increment);
+
+setTimeout(update,20);
+
+}else{
+
+counter.innerText=target;
+
+}
+
+};
+
+update();
+
+});
+
+</script>
+
+</body>
+</html>
