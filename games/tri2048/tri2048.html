@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Kids ABC Fun</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    overflow:hidden;
+    background:#000;
+    color:white;
+    font-family:Arial,sans-serif;
+    width:100vw;
+    height:100vh;
+    touch-action:manipulation;
+}
+
+#center{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+    z-index:1000;
+    width:90%;
+}
+
+#emoji{
+    font-size:min(50vw,260px);
+    line-height:1;
+}
+
+#word{
+    margin-top:15px;
+    font-size:min(8vw,48px);
+    font-weight:bold;
+}
+
+#instruction{
+    margin-top:20px;
+    font-size:min(4vw,24px);
+    color:#ccc;
+}
+
+.floatEmoji{
+    position:absolute;
+    pointer-events:none;
+    user-select:none;
+    animation:floatAway linear forwards;
+}
+
+@keyframes floatAway{
+
+    from{
+        transform:
+            translate(0px,0px)
+            rotate(0deg)
+            scale(1);
+
+        opacity:1;
+    }
+
+    to{
+
+        transform:
+            translate(var(--dx),var(--dy))
+            rotate(var(--rot))
+            scale(1.5);
+
+        opacity:0;
+    }
+}
+
+</style>
+</head>
+<body>
+
+<div id="center">
+
+    <div id="emoji">🎉</div>
+
+    <div id="word">
+        Welcome!
+    </div>
+
+    <div id="instruction">
+        Loading...
+    </div>
+
+</div>
+
+<script>
+
+const alphabet = {
+
+A:{word:"Apple",emoji:"🍎"},
+B:{word:"Ball",emoji:"⚽"},
+C:{word:"Cat",emoji:"🐱"},
+D:{word:"Dog",emoji:"🐶"},
+E:{word:"Elephant",emoji:"🐘"},
+F:{word:"Fish",emoji:"🐟"},
+G:{word:"Giraffe",emoji:"🦒"},
+H:{word:"Hat",emoji:"👒"},
+I:{word:"Ice Cream",emoji:"🍦"},
+J:{word:"Juice",emoji:"🧃"},
+K:{word:"Kite",emoji:"🪁"},
+L:{word:"Lion",emoji:"🦁"},
+M:{word:"Monkey",emoji:"🐵"},
+N:{word:"Nest",emoji:"🪺"},
+O:{word:"Orange",emoji:"🍊"},
+P:{word:"Penguin",emoji:"🐧"},
+Q:{word:"Queen",emoji:"👑"},
+R:{word:"Rabbit",emoji:"🐰"},
+S:{word:"Sun",emoji:"☀️"},
+T:{word:"Train",emoji:"🚂"},
+U:{word:"Umbrella",emoji:"☂️"},
+V:{word:"Violin",emoji:"🎻"},
+W:{word:"Whale",emoji:"🐋"},
+X:{word:"Xylophone",emoji:"🎼"},
+Y:{word:"Yacht",emoji:"🛥️"},
+Z:{word:"Zebra",emoji:"🦓"}
+};
+
+const emojiEl =
+    document.getElementById("emoji");
+
+const wordEl =
+    document.getElementById("word");
+
+const instructionEl =
+    document.getElementById("instruction");
+
+const isMobile =
+    /Android|iPhone|iPad|iPod/i
+    .test(navigator.userAgent);
+
+if(isMobile){
+
+    instructionEl.innerHTML =
+        "👆 Tap Anywhere";
+
+}else{
+
+    instructionEl.innerHTML =
+        "⌨️ Press Any Letter A-Z";
+
+}
+
+function speak(text){
+
+    if(!window.speechSynthesis)
+        return;
+
+    speechSynthesis.cancel();
+
+    const utterance =
+        new SpeechSynthesisUtterance(text);
+
+    utterance.rate = 0.8;
+    utterance.pitch = 1.3;
+    utterance.volume = 1;
+
+    speechSynthesis.speak(
+        utterance
+    );
+}
+
+function flashBackground(){
+
+    document.body.animate(
+    [
+        {background:"#000"},
+        {background:"#111"},
+        {background:"#222"},
+        {background:"#000"}
+    ],
+    {
+        duration:600
+    });
+}
+
+function createStorm(
+    emoji,
+    count=25
+){
+
+    for(
+        let i=0;
+        i<count;
+        i++
+    ){
+
+        const e =
+            document.createElement(
+                "div"
+            );
+
+        e.className =
+            "floatEmoji";
+
+        e.textContent =
+            emoji;
+
+        const size =
+            50 +
+            Math.random()*90;
+
+        e.style.fontSize =
+            size + "px";
+
+        e.style.left =
+            Math.random() *
+            window.innerWidth +
+            "px";
+
+        e.style.top =
+            Math.random() *
+            window.innerHeight +
+            "px";
+
+        e.style.setProperty(
+            "--dx",
+            (
+                Math.random()*3000
+                -1500
+            ) + "px"
+        );
+
+        e.style.setProperty(
+            "--dy",
+            (
+                Math.random()*3000
+                -1500
+            ) + "px"
+        );
+
+        e.style.setProperty(
+            "--rot",
+            (
+                Math.random()*1440
+                -720
+            ) + "deg"
+        );
+
+        const duration = 5;
+
+        e.style.animationDuration =
+            duration + "s";
+
+        document.body.appendChild(
+            e
+        );
+
+        setTimeout(
+            ()=>{
+                e.remove();
+            },
+            duration*500
+        );
+    }
+}
+
+function showLetter(letter){
+
+    const data =
+        alphabet[letter];
+
+    emojiEl.textContent =
+        data.emoji;
+
+    wordEl.textContent =
+        `${letter} is for ${data.word}`;
+
+    flashBackground();
+
+    createStorm(
+        data.emoji,
+        20
+    );
+
+    speak(
+        `${letter} is for ${data.word}`
+    );
+}
+
+function randomLetter(){
+
+    const keys =
+        Object.keys(
+            alphabet
+        );
+
+    return keys[
+        Math.floor(
+            Math.random() *
+            keys.length
+        )
+    ];
+}
+
+/* DESKTOP KEYBOARD */
+
+if(!isMobile){
+
+    document.addEventListener(
+        "keydown",
+        function(event){
+
+            const key =
+                event.key
+                .toUpperCase();
+
+            if(
+                alphabet[key]
+            ){
+
+                showLetter(
+                    key
+                );
+
+            }
+        }
+    );
+}
+
+/* MOBILE TOUCH */
+
+if(isMobile){
+
+    document.body.addEventListener(
+        "touchstart",
+        function(){
+
+            showLetter(
+                randomLetter()
+            );
+
+        }
+    );
+
+}
+
+/* INITIAL SCREEN */
+
+emojiEl.innerHTML =
+    "🎈";
+
+wordEl.innerHTML =
+    "ABC Fun";
+
+</script>
+
+</body>
+</html>
+

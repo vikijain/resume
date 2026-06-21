@@ -1,0 +1,2402 @@
+[
+  {
+    "id": 1,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal moos?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cow",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 2,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal meows?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cat",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 3,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal quacks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Duck",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 4,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal barks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Dog",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 5,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal moos?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cow",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 6,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal meows?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cat",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 7,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal quacks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Duck",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 8,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal barks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Dog",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 9,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal moos?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cow",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 10,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal meows?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cat",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 11,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal quacks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Duck",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 12,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal barks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Dog",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 13,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal moos?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cow",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 14,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal meows?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cat",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 15,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal quacks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Duck",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 16,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal barks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Dog",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 17,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal moos?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cow",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 18,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal meows?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cat",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 19,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal quacks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Duck",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 20,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal barks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Dog",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 21,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal moos?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cow",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 22,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal meows?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cat",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 23,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal quacks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Duck",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 24,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal barks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Dog",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 25,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal moos?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cow",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 26,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal meows?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cat",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 27,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal quacks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Duck",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 28,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal barks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Dog",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 29,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal moos?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cow",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 30,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal meows?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cat",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 31,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal quacks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Duck",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 32,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal barks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Dog",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 33,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal moos?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cow",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 34,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal meows?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cat",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 35,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal quacks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Duck",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 36,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal barks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Dog",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 37,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal moos?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cow",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 38,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal meows?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cat",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 39,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal quacks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Duck",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 40,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal barks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Dog",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 41,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal moos?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cow",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 42,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal meows?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cat",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 43,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal quacks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Duck",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 44,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal barks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Dog",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 45,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal moos?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cow",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 46,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal meows?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cat",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 47,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal quacks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Duck",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 48,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal barks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Dog",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 49,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal moos?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cow",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 50,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal meows?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cat",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 51,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal quacks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Duck",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 52,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal barks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Dog",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 53,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal moos?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cow",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 54,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal meows?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cat",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 55,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal quacks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Duck",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 56,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal barks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Dog",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 57,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal moos?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cow",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 58,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal meows?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cat",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 59,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal quacks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Duck",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 60,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal barks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Dog",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 61,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal moos?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cow",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 62,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal meows?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cat",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 63,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal quacks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Duck",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 64,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal barks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Dog",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 65,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal moos?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cow",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 66,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal meows?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cat",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 67,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal quacks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Duck",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 68,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal barks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Dog",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 69,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal moos?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cow",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 70,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal meows?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cat",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 71,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal quacks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Duck",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 72,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal barks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Dog",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 73,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal moos?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cow",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 74,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal meows?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cat",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 75,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal quacks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Duck",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 76,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal barks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Dog",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 77,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal moos?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cow",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 78,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal meows?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cat",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 79,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal quacks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Duck",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 80,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal barks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Dog",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 81,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal moos?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cow",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 82,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal meows?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cat",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 83,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal quacks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Duck",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 84,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal barks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Dog",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 85,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal moos?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cow",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 86,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal meows?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cat",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 87,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal quacks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Duck",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 88,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal barks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Dog",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 89,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal moos?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cow",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 90,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal meows?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cat",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 91,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal quacks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Duck",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 92,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal barks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Dog",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 93,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal moos?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cow",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 94,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal meows?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cat",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 95,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal quacks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Duck",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 96,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal barks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Dog",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 97,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal moos?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cow",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 98,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal meows?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cat",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 99,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal quacks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Duck",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 100,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal barks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Dog",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 101,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal moos?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cow",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 102,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal meows?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cat",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 103,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal quacks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Duck",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 104,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal barks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Dog",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 105,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal moos?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cow",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 106,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal meows?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cat",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 107,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal quacks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Duck",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 108,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal barks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Dog",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 109,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal moos?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cow",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 110,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal meows?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cat",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 111,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal quacks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Duck",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 112,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal barks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Dog",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 113,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal moos?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cow",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 114,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal meows?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cat",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 115,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal quacks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Duck",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 116,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal barks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Dog",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 117,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal moos?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cow",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 118,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal meows?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cat",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 119,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal quacks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Duck",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 120,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal barks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Dog",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 121,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal moos?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cow",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 122,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal meows?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cat",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 123,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal quacks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Duck",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 124,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal barks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Dog",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 125,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal moos?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cow",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 126,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal meows?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cat",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 127,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal quacks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Duck",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 128,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal barks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Dog",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 129,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal moos?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cow",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 130,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal meows?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cat",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 131,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal quacks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Duck",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 132,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal barks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Dog",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 133,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal moos?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cow",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 134,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal meows?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cat",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 135,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal quacks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Duck",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 136,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal barks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Dog",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 137,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal moos?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cow",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 138,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal meows?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cat",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 139,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal quacks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Duck",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 140,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal barks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Dog",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 141,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal moos?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cow",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 142,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal meows?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cat",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 143,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal quacks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Duck",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 144,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal barks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Dog",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 145,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal moos?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cow",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 146,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal meows?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cat",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 147,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal quacks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Duck",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 148,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal barks?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Dog",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 149,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal moos?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cow",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 150,
+    "category": "Animals",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "Which animal meows?",
+    "options": [
+      "Dog",
+      "Cow",
+      "Cat",
+      "Duck"
+    ],
+    "answer": "Cat",
+    "fact": "Learning through play helps build knowledge and confidence."
+  }
+]

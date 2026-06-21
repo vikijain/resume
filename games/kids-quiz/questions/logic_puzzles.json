@@ -1,0 +1,1602 @@
+[
+  {
+    "id": 1,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 4, 8, 16, ?",
+    "options": [
+      "32",
+      "24",
+      "40",
+      "48"
+    ],
+    "answer": "32",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 2,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 8, 16, 32, ?",
+    "options": [
+      "64",
+      "48",
+      "80",
+      "96"
+    ],
+    "answer": "64",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 3,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 16, 32, 64, ?",
+    "options": [
+      "128",
+      "96",
+      "160",
+      "192"
+    ],
+    "answer": "128",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 4,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 2, 4, 8, ?",
+    "options": [
+      "16",
+      "12",
+      "20",
+      "24"
+    ],
+    "answer": "16",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 5,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 4, 8, 16, ?",
+    "options": [
+      "32",
+      "24",
+      "40",
+      "48"
+    ],
+    "answer": "32",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 6,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 8, 16, 32, ?",
+    "options": [
+      "64",
+      "48",
+      "80",
+      "96"
+    ],
+    "answer": "64",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 7,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 16, 32, 64, ?",
+    "options": [
+      "128",
+      "96",
+      "160",
+      "192"
+    ],
+    "answer": "128",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 8,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 2, 4, 8, ?",
+    "options": [
+      "16",
+      "12",
+      "20",
+      "24"
+    ],
+    "answer": "16",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 9,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 4, 8, 16, ?",
+    "options": [
+      "32",
+      "24",
+      "40",
+      "48"
+    ],
+    "answer": "32",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 10,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 8, 16, 32, ?",
+    "options": [
+      "64",
+      "48",
+      "80",
+      "96"
+    ],
+    "answer": "64",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 11,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 16, 32, 64, ?",
+    "options": [
+      "128",
+      "96",
+      "160",
+      "192"
+    ],
+    "answer": "128",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 12,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 2, 4, 8, ?",
+    "options": [
+      "16",
+      "12",
+      "20",
+      "24"
+    ],
+    "answer": "16",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 13,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 4, 8, 16, ?",
+    "options": [
+      "32",
+      "24",
+      "40",
+      "48"
+    ],
+    "answer": "32",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 14,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 8, 16, 32, ?",
+    "options": [
+      "64",
+      "48",
+      "80",
+      "96"
+    ],
+    "answer": "64",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 15,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 16, 32, 64, ?",
+    "options": [
+      "128",
+      "96",
+      "160",
+      "192"
+    ],
+    "answer": "128",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 16,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 2, 4, 8, ?",
+    "options": [
+      "16",
+      "12",
+      "20",
+      "24"
+    ],
+    "answer": "16",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 17,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 4, 8, 16, ?",
+    "options": [
+      "32",
+      "24",
+      "40",
+      "48"
+    ],
+    "answer": "32",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 18,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 8, 16, 32, ?",
+    "options": [
+      "64",
+      "48",
+      "80",
+      "96"
+    ],
+    "answer": "64",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 19,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 16, 32, 64, ?",
+    "options": [
+      "128",
+      "96",
+      "160",
+      "192"
+    ],
+    "answer": "128",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 20,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 2, 4, 8, ?",
+    "options": [
+      "16",
+      "12",
+      "20",
+      "24"
+    ],
+    "answer": "16",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 21,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 4, 8, 16, ?",
+    "options": [
+      "32",
+      "24",
+      "40",
+      "48"
+    ],
+    "answer": "32",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 22,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 8, 16, 32, ?",
+    "options": [
+      "64",
+      "48",
+      "80",
+      "96"
+    ],
+    "answer": "64",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 23,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 16, 32, 64, ?",
+    "options": [
+      "128",
+      "96",
+      "160",
+      "192"
+    ],
+    "answer": "128",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 24,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 2, 4, 8, ?",
+    "options": [
+      "16",
+      "12",
+      "20",
+      "24"
+    ],
+    "answer": "16",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 25,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 4, 8, 16, ?",
+    "options": [
+      "32",
+      "24",
+      "40",
+      "48"
+    ],
+    "answer": "32",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 26,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 8, 16, 32, ?",
+    "options": [
+      "64",
+      "48",
+      "80",
+      "96"
+    ],
+    "answer": "64",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 27,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 16, 32, 64, ?",
+    "options": [
+      "128",
+      "96",
+      "160",
+      "192"
+    ],
+    "answer": "128",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 28,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 2, 4, 8, ?",
+    "options": [
+      "16",
+      "12",
+      "20",
+      "24"
+    ],
+    "answer": "16",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 29,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 4, 8, 16, ?",
+    "options": [
+      "32",
+      "24",
+      "40",
+      "48"
+    ],
+    "answer": "32",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 30,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 8, 16, 32, ?",
+    "options": [
+      "64",
+      "48",
+      "80",
+      "96"
+    ],
+    "answer": "64",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 31,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 16, 32, 64, ?",
+    "options": [
+      "128",
+      "96",
+      "160",
+      "192"
+    ],
+    "answer": "128",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 32,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 2, 4, 8, ?",
+    "options": [
+      "16",
+      "12",
+      "20",
+      "24"
+    ],
+    "answer": "16",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 33,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 4, 8, 16, ?",
+    "options": [
+      "32",
+      "24",
+      "40",
+      "48"
+    ],
+    "answer": "32",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 34,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 8, 16, 32, ?",
+    "options": [
+      "64",
+      "48",
+      "80",
+      "96"
+    ],
+    "answer": "64",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 35,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 16, 32, 64, ?",
+    "options": [
+      "128",
+      "96",
+      "160",
+      "192"
+    ],
+    "answer": "128",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 36,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 2, 4, 8, ?",
+    "options": [
+      "16",
+      "12",
+      "20",
+      "24"
+    ],
+    "answer": "16",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 37,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 4, 8, 16, ?",
+    "options": [
+      "32",
+      "24",
+      "40",
+      "48"
+    ],
+    "answer": "32",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 38,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 8, 16, 32, ?",
+    "options": [
+      "64",
+      "48",
+      "80",
+      "96"
+    ],
+    "answer": "64",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 39,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 16, 32, 64, ?",
+    "options": [
+      "128",
+      "96",
+      "160",
+      "192"
+    ],
+    "answer": "128",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 40,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 2, 4, 8, ?",
+    "options": [
+      "16",
+      "12",
+      "20",
+      "24"
+    ],
+    "answer": "16",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 41,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 4, 8, 16, ?",
+    "options": [
+      "32",
+      "24",
+      "40",
+      "48"
+    ],
+    "answer": "32",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 42,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 8, 16, 32, ?",
+    "options": [
+      "64",
+      "48",
+      "80",
+      "96"
+    ],
+    "answer": "64",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 43,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 16, 32, 64, ?",
+    "options": [
+      "128",
+      "96",
+      "160",
+      "192"
+    ],
+    "answer": "128",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 44,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 2, 4, 8, ?",
+    "options": [
+      "16",
+      "12",
+      "20",
+      "24"
+    ],
+    "answer": "16",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 45,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 4, 8, 16, ?",
+    "options": [
+      "32",
+      "24",
+      "40",
+      "48"
+    ],
+    "answer": "32",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 46,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 8, 16, 32, ?",
+    "options": [
+      "64",
+      "48",
+      "80",
+      "96"
+    ],
+    "answer": "64",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 47,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 16, 32, 64, ?",
+    "options": [
+      "128",
+      "96",
+      "160",
+      "192"
+    ],
+    "answer": "128",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 48,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 2, 4, 8, ?",
+    "options": [
+      "16",
+      "12",
+      "20",
+      "24"
+    ],
+    "answer": "16",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 49,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 4, 8, 16, ?",
+    "options": [
+      "32",
+      "24",
+      "40",
+      "48"
+    ],
+    "answer": "32",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 50,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 8, 16, 32, ?",
+    "options": [
+      "64",
+      "48",
+      "80",
+      "96"
+    ],
+    "answer": "64",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 51,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 16, 32, 64, ?",
+    "options": [
+      "128",
+      "96",
+      "160",
+      "192"
+    ],
+    "answer": "128",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 52,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 2, 4, 8, ?",
+    "options": [
+      "16",
+      "12",
+      "20",
+      "24"
+    ],
+    "answer": "16",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 53,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 4, 8, 16, ?",
+    "options": [
+      "32",
+      "24",
+      "40",
+      "48"
+    ],
+    "answer": "32",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 54,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 8, 16, 32, ?",
+    "options": [
+      "64",
+      "48",
+      "80",
+      "96"
+    ],
+    "answer": "64",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 55,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 16, 32, 64, ?",
+    "options": [
+      "128",
+      "96",
+      "160",
+      "192"
+    ],
+    "answer": "128",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 56,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 2, 4, 8, ?",
+    "options": [
+      "16",
+      "12",
+      "20",
+      "24"
+    ],
+    "answer": "16",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 57,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 4, 8, 16, ?",
+    "options": [
+      "32",
+      "24",
+      "40",
+      "48"
+    ],
+    "answer": "32",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 58,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 8, 16, 32, ?",
+    "options": [
+      "64",
+      "48",
+      "80",
+      "96"
+    ],
+    "answer": "64",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 59,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 16, 32, 64, ?",
+    "options": [
+      "128",
+      "96",
+      "160",
+      "192"
+    ],
+    "answer": "128",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 60,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 2, 4, 8, ?",
+    "options": [
+      "16",
+      "12",
+      "20",
+      "24"
+    ],
+    "answer": "16",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 61,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 4, 8, 16, ?",
+    "options": [
+      "32",
+      "24",
+      "40",
+      "48"
+    ],
+    "answer": "32",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 62,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 8, 16, 32, ?",
+    "options": [
+      "64",
+      "48",
+      "80",
+      "96"
+    ],
+    "answer": "64",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 63,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 16, 32, 64, ?",
+    "options": [
+      "128",
+      "96",
+      "160",
+      "192"
+    ],
+    "answer": "128",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 64,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 2, 4, 8, ?",
+    "options": [
+      "16",
+      "12",
+      "20",
+      "24"
+    ],
+    "answer": "16",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 65,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 4, 8, 16, ?",
+    "options": [
+      "32",
+      "24",
+      "40",
+      "48"
+    ],
+    "answer": "32",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 66,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 8, 16, 32, ?",
+    "options": [
+      "64",
+      "48",
+      "80",
+      "96"
+    ],
+    "answer": "64",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 67,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 16, 32, 64, ?",
+    "options": [
+      "128",
+      "96",
+      "160",
+      "192"
+    ],
+    "answer": "128",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 68,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 2, 4, 8, ?",
+    "options": [
+      "16",
+      "12",
+      "20",
+      "24"
+    ],
+    "answer": "16",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 69,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 4, 8, 16, ?",
+    "options": [
+      "32",
+      "24",
+      "40",
+      "48"
+    ],
+    "answer": "32",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 70,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 8, 16, 32, ?",
+    "options": [
+      "64",
+      "48",
+      "80",
+      "96"
+    ],
+    "answer": "64",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 71,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 16, 32, 64, ?",
+    "options": [
+      "128",
+      "96",
+      "160",
+      "192"
+    ],
+    "answer": "128",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 72,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 2, 4, 8, ?",
+    "options": [
+      "16",
+      "12",
+      "20",
+      "24"
+    ],
+    "answer": "16",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 73,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 4, 8, 16, ?",
+    "options": [
+      "32",
+      "24",
+      "40",
+      "48"
+    ],
+    "answer": "32",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 74,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 8, 16, 32, ?",
+    "options": [
+      "64",
+      "48",
+      "80",
+      "96"
+    ],
+    "answer": "64",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 75,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 16, 32, 64, ?",
+    "options": [
+      "128",
+      "96",
+      "160",
+      "192"
+    ],
+    "answer": "128",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 76,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 2, 4, 8, ?",
+    "options": [
+      "16",
+      "12",
+      "20",
+      "24"
+    ],
+    "answer": "16",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 77,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 4, 8, 16, ?",
+    "options": [
+      "32",
+      "24",
+      "40",
+      "48"
+    ],
+    "answer": "32",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 78,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 8, 16, 32, ?",
+    "options": [
+      "64",
+      "48",
+      "80",
+      "96"
+    ],
+    "answer": "64",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 79,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 16, 32, 64, ?",
+    "options": [
+      "128",
+      "96",
+      "160",
+      "192"
+    ],
+    "answer": "128",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 80,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 2, 4, 8, ?",
+    "options": [
+      "16",
+      "12",
+      "20",
+      "24"
+    ],
+    "answer": "16",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 81,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 4, 8, 16, ?",
+    "options": [
+      "32",
+      "24",
+      "40",
+      "48"
+    ],
+    "answer": "32",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 82,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 8, 16, 32, ?",
+    "options": [
+      "64",
+      "48",
+      "80",
+      "96"
+    ],
+    "answer": "64",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 83,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 16, 32, 64, ?",
+    "options": [
+      "128",
+      "96",
+      "160",
+      "192"
+    ],
+    "answer": "128",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 84,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 2, 4, 8, ?",
+    "options": [
+      "16",
+      "12",
+      "20",
+      "24"
+    ],
+    "answer": "16",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 85,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 4, 8, 16, ?",
+    "options": [
+      "32",
+      "24",
+      "40",
+      "48"
+    ],
+    "answer": "32",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 86,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 8, 16, 32, ?",
+    "options": [
+      "64",
+      "48",
+      "80",
+      "96"
+    ],
+    "answer": "64",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 87,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 16, 32, 64, ?",
+    "options": [
+      "128",
+      "96",
+      "160",
+      "192"
+    ],
+    "answer": "128",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 88,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 2, 4, 8, ?",
+    "options": [
+      "16",
+      "12",
+      "20",
+      "24"
+    ],
+    "answer": "16",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 89,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 4, 8, 16, ?",
+    "options": [
+      "32",
+      "24",
+      "40",
+      "48"
+    ],
+    "answer": "32",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 90,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 8, 16, 32, ?",
+    "options": [
+      "64",
+      "48",
+      "80",
+      "96"
+    ],
+    "answer": "64",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 91,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 16, 32, 64, ?",
+    "options": [
+      "128",
+      "96",
+      "160",
+      "192"
+    ],
+    "answer": "128",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 92,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 2, 4, 8, ?",
+    "options": [
+      "16",
+      "12",
+      "20",
+      "24"
+    ],
+    "answer": "16",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 93,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 4, 8, 16, ?",
+    "options": [
+      "32",
+      "24",
+      "40",
+      "48"
+    ],
+    "answer": "32",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 94,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 8, 16, 32, ?",
+    "options": [
+      "64",
+      "48",
+      "80",
+      "96"
+    ],
+    "answer": "64",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 95,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 16, 32, 64, ?",
+    "options": [
+      "128",
+      "96",
+      "160",
+      "192"
+    ],
+    "answer": "128",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 96,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 2, 4, 8, ?",
+    "options": [
+      "16",
+      "12",
+      "20",
+      "24"
+    ],
+    "answer": "16",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 97,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 4, 8, 16, ?",
+    "options": [
+      "32",
+      "24",
+      "40",
+      "48"
+    ],
+    "answer": "32",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 98,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 8, 16, 32, ?",
+    "options": [
+      "64",
+      "48",
+      "80",
+      "96"
+    ],
+    "answer": "64",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 99,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 16, 32, 64, ?",
+    "options": [
+      "128",
+      "96",
+      "160",
+      "192"
+    ],
+    "answer": "128",
+    "fact": "Learning through play helps build knowledge and confidence."
+  },
+  {
+    "id": 100,
+    "category": "Logic Puzzles",
+    "ageMin": 2,
+    "ageMax": 15,
+    "difficulty": "easy",
+    "question": "What comes next? 2, 4, 8, ?",
+    "options": [
+      "16",
+      "12",
+      "20",
+      "24"
+    ],
+    "answer": "16",
+    "fact": "Learning through play helps build knowledge and confidence."
+  }
+]

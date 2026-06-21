@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kids Quiz Adventure</title>
+<style>
+body{font-family:Arial,sans-serif;margin:0;background:linear-gradient(135deg,#6dd5ed,#2193b0);min-height:100vh;color:#fff}
+.container{max-width:900px;margin:auto;padding:20px}
+.card{background:#ffffff;color:#333;border-radius:20px;padding:25px;box-shadow:0 10px 30px rgba(0,0,0,.2)}
+h1{text-align:center}
+input,select,button{width:100%;padding:12px;margin:8px 0;border-radius:10px;border:none}
+button{background:#ff9800;color:white;font-size:18px;cursor:pointer}
+button:hover{transform:scale(1.02)}
+.option{margin:10px 0}
+.hidden{display:none}
+.scoreboard{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:15px}
+.badge{background:#f5f5f5;color:#333;padding:10px;border-radius:10px}
+.progress{height:18px;background:#ddd;border-radius:20px;overflow:hidden}
+.progress-bar{height:100%;width:0%;background:#4caf50}
+#message{font-size:22px;font-weight:bold;text-align:center;margin-top:15px}
+</style>
+</head>
+<body>
+<div class="container">
+
+<div id="setup" class="card">
+<h1>🌟 Kids Quiz Adventure 🌟</h1>
+<input id="name" placeholder="Enter your name">
+<input id="age" type="number" min="2" max="15" placeholder="Age">
+<select id="category">
+<option>Colors & Shapes</option>
+<option>Counting & Numbers</option>
+<option>Mathematics</option>
+<option>Animals</option>
+<option>General Knowledge</option>
+<option>Space</option>
+<option>Logic & Puzzles</option>
+</select>
+<button onclick="startGame()">🚀 Start Adventure</button>
+</div>
+
+<div id="quiz" class="card hidden">
+<div class="scoreboard">
+<div class="badge">✅ Correct: <span id="correct">0</span></div>
+<div class="badge">❌ Incorrect: <span id="incorrect">0</span></div>
+<div class="badge">🔥 Streak: <span id="streak">0</span></div>
+<div class="badge">🏆 Score: <span id="score">0</span></div>
+</div>
+
+<div class="progress"><div class="progress-bar" id="bar"></div></div>
+<h2 id="progressText"></h2>
+<h2 id="question"></h2>
+<div id="options"></div>
+<div id="message"></div>
+</div>
+
+<div id="result" class="card hidden">
+<h1>🎉 Quiz Complete!</h1>
+<h2 id="summary"></h2>
+<button onclick="location.reload()">🔄 Play Again</button>
+</div>
+
+</div>
+
+<script>
+const categoryFiles={
+"Colors & Shapes":"questions/colors_shapes.json",
+"Counting & Numbers":"questions/counting_numbers.json",
+"Mathematics":"questions/mathematics.json",
+"Animals":"questions/animals.json",
+"General Knowledge":"questions/general_knowledge.json",
+"Space":"questions/space.json",
+"Logic & Puzzles":"questions/logic_puzzles.json"
+};
+
+let questions=[],current=0,score=0,correct=0,incorrect=0,streak=0,name="";
+
+const motivations=[
+"🌟 Amazing!","👏 Fantastic!","🚀 Super Star!","🎉 Brilliant!",
+"🏆 Excellent!","💪 Keep Going!","😊 Great Job!"
+];
+
+function beep(freq,duration){
+const ctx=new(window.AudioContext||window.webkitAudioContext)();
+const osc=ctx.createOscillator();
+osc.frequency.value=freq;
+osc.connect(ctx.destination);
+osc.start();
+setTimeout(()=>{osc.stop();ctx.close();},duration);
+}
+
+async function startGame(){
+name=document.getElementById("name").value||"Champion";
+const age=parseInt(document.getElementById("age").value||5);
+const category=document.getElementById("category").value;
+
+const res=await fetch(categoryFiles[category]);
+let all=await res.json();
+
+all=all.filter(q=>{
+if(q.ageMin===undefined) return true;
+return age>=q.ageMin && age<=q.ageMax;
+});
+
+questions=all.sort(()=>Math.random()-0.5).slice(0,20);
+
+document.getElementById("setup").classList.add("hidden");
+document.getElementById("quiz").classList.remove("hidden");
+showQuestion();
+}
+
+function showQuestion(){
+if(current>=questions.length){finish();return;}
+
+const q=questions[current];
+document.getElementById("progressText").innerText=`Question ${current+1} of ${questions.length}`;
+document.getElementById("question").innerText=q.question;
+
+document.getElementById("bar").style.width=((current/questions.length)*100)+"%";
+
+const options=document.getElementById("options");
+options.innerHTML="";
+
+q.options.sort(()=>Math.random()-0.5).forEach(opt=>{
+const btn=document.createElement("button");
+btn.className="option";
+btn.innerText=opt;
+btn.onclick=()=>checkAnswer(opt,q);
+options.appendChild(btn);
+});
+
+document.getElementById("message").innerText="";
+}
+
+function checkAnswer(selected,q){
+const msg=document.getElementById("message");
+
+if(selected===q.answer){
+correct++;
+score+=10;
+streak++;
+beep(700,200);
+msg.innerText=motivations[Math.floor(Math.random()*motivations.length)];
+msg.style.color="green";
+}else{
+incorrect++;
+streak=0;
+beep(200,300);
+msg.innerText=`😊 Nice try! Correct answer: ${q.answer}`;
+msg.style.color="red";
+}
+
+document.getElementById("correct").innerText=correct;
+document.getElementById("incorrect").innerText=incorrect;
+document.getElementById("streak").innerText=streak;
+document.getElementById("score").innerText=score;
+
+setTimeout(()=>{
+current++;
+showQuestion();
+},1500);
+}
+
+function finish(){
+document.getElementById("quiz").classList.add("hidden");
+document.getElementById("result").classList.remove("hidden");
+
+const accuracy=((correct/(correct+incorrect||1))*100).toFixed(0);
+
+document.getElementById("summary").innerHTML=`
+🎖️ ${name}<br><br>
+✅ Correct: ${correct}<br>
+❌ Incorrect: ${incorrect}<br>
+🏆 Score: ${score}<br>
+📈 Accuracy: ${accuracy}%
+`;
+}
+</script>
+</body>
+</html>

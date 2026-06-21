@@ -1,1 +1,1 @@
-Repo for my resume. Seems dumb I guess.
+Note: All games are vibe-coded.
