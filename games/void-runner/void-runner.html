@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>VOIDRUNNER</title>
+<style>
+  :root {
+    --void: #06060a;
+    --void-2: #0c0c14;
+    --accent: #5ef0c0;
+    --accent-dim: #2a9d7f;
+    --danger: #ff5470;
+    --text: #e8f4ee;
+    --text-dim: #6b7a76;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html, body {
+    background: var(--void);
+    color: var(--text);
+    font-family: 'Courier New', monospace;
+    overflow: hidden;
+    height: 100%;
+    touch-action: none;
+  }
+
+  #gameCanvas {
+    display: block;
+    background: var(--void);
+    width: 100%;
+    height: 100%;
+  }
+
+  .hud {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 24px;
+    pointer-events: none;
+    z-index: 10;
+    font-family: 'Courier New', monospace;
+  }
+
+  .hud-block { display: flex; flex-direction: column; gap: 2px; }
+
+  .hud-label {
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    color: var(--text-dim);
+    text-transform: uppercase;
+  }
+
+  .hud-value {
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--text);
+    letter-spacing: 0.05em;
+    text-shadow: 0 0 12px rgba(94, 240, 192, 0.3);
+  }
+
+  .combo-value {
+    color: var(--accent);
+    transition: color 0.15s, transform 0.15s;
+  }
+
+  .combo-pop {
+    transform: scale(1.3);
+    color: #fff;
+  }
+
+  .right-align { text-align: right; align-items: flex-end; }
+
+  #overlay {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(6, 6, 10, 0.92);
+    z-index: 20;
+    text-align: center;
+    padding: 24px;
+  }
+
+  #overlay.hidden { display: none; }
+
+  .title {
+    font-size: clamp(36px, 9vw, 64px);
+    font-weight: bold;
+    letter-spacing: 0.08em;
+    color: var(--text);
+    margin-bottom: 8px;
+    text-shadow: 0 0 24px rgba(94, 240, 192, 0.4);
+  }
+
+  .title span { color: var(--accent); }
+
+  .subtitle {
+    font-size: 13px;
+    color: var(--text-dim);
+    letter-spacing: 0.15em;
+    margin-bottom: 36px;
+    text-transform: uppercase;
+  }
+
+  .stat-row {
+    display: flex;
+    gap: 48px;
+    margin-bottom: 36px;
+  }
+
+  .stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .stat-num {
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--accent);
+  }
+
+  .stat-label {
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    color: var(--text-dim);
+    text-transform: uppercase;
+  }
+
+  .play-btn {
+    background: var(--accent);
+    color: var(--void);
+    border: none;
+    padding: 16px 48px;
+    font-family: 'Courier New', monospace;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: transform 0.1s, box-shadow 0.2s;
+    box-shadow: 0 0 30px rgba(94, 240, 192, 0.25);
+  }
+
+  .play-btn:hover { transform: scale(1.04); box-shadow: 0 0 40px rgba(94, 240, 192, 0.4); }
+  .play-btn:active { transform: scale(0.97); }
+
+  .instructions {
+    margin-top: 28px;
+    font-size: 12px;
+    color: var(--text-dim);
+    letter-spacing: 0.05em;
+    line-height: 1.8;
+    max-width: 320px;
+  }
+
+  .instructions b { color: var(--accent); }
+
+  .death-flash {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: var(--danger);
+    opacity: 0;
+    pointer-events: none;
+    z-index: 15;
+  }
+
+  @media (max-width: 480px) {
+    .stat-row { gap: 28px; }
+    .hud { padding: 14px 18px; }
+    .hud-value { font-size: 22px; }
+  }
+</style>
+</head>
+<body>
+
+<canvas id="gameCanvas"></canvas>
+<div class="death-flash" id="deathFlash"></div>
+
+<div class="hud">
+  <div class="hud-block">
+    <div class="hud-label">Distance</div>
+    <div class="hud-value" id="scoreDisplay">0</div>
+  </div>
+  <div class="hud-block right-align">
+    <div class="hud-label">Combo</div>
+    <div class="hud-value combo-value" id="comboDisplay">×1</div>
+  </div>
+</div>
+
+<div id="overlay">
+  <div class="title">VOID<span>RUNNER</span></div>
+  <div class="subtitle">survive the descent</div>
+  <div class="stat-row" id="statRow" style="display:none;">
+    <div class="stat">
+      <div class="stat-num" id="finalScore">0</div>
+      <div class="stat-label">Distance</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num" id="bestScore">0</div>
+      <div class="stat-label">Best</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num" id="maxCombo">0</div>
+      <div class="stat-label">Max Combo</div>
+    </div>
+  </div>
+  <button class="play-btn" id="playBtn">Start</button>
+  <div class="instructions">
+    <b>← →</b> or <b>A / D</b> or drag to steer.<br>
+    Graze obstacles closely to build <b>combo</b> — score multiplies the closer you cut it. Crash and it's over.
+  </div>
+</div>
+
+<script>
+(function() {
+  const canvas = document.getElementById('gameCanvas');
+  const ctx = canvas.getContext('2d');
+  const overlay = document.getElementById('overlay');
+  const playBtn = document.getElementById('playBtn');
+  const scoreDisplay = document.getElementById('scoreDisplay');
+  const comboDisplay = document.getElementById('comboDisplay');
+  const deathFlash = document.getElementById('deathFlash');
+  const statRow = document.getElementById('statRow');
+  const finalScoreEl = document.getElementById('finalScore');
+  const bestScoreEl = document.getElementById('bestScore');
+  const maxComboEl = document.getElementById('maxCombo');
+
+  let W, H, DPR;
+  function resize() {
+    DPR = Math.min(window.devicePixelRatio || 1, 2);
+    W = window.innerWidth;
+    H = window.innerHeight;
+    canvas.width = W * DPR;
+    canvas.height = H * DPR;
+    canvas.style.width = W + 'px';
+    canvas.style.height = H + 'px';
+    ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+  }
+  window.addEventListener('resize', resize);
+  resize();
+
+  let best = 0;
+  try {
+    const stored = localStorage.getItem('voidrunner_best');
+    if (stored) best = parseInt(stored, 10) || 0;
+  } catch (e) { /* storage unavailable, ignore */ }
+
+  let running = false;
+  let player, obstacles, particles, trail;
+  let score, distance, combo, maxComboThisRun, speed, baseSpeed, spawnTimer, spawnInterval, shakeTime, shakeMag;
+  let keys = { left: false, right: false };
+  let dragX = null;
+
+  const PLAYER_R = 9;
+
+  function resetGame() {
+    player = { x: W / 2, y: H * 0.82, vx: 0 };
+    obstacles = [];
+    particles = [];
+    trail = [];
+    score = 0;
+    distance = 0;
+    combo = 1;
+    maxComboThisRun = 1;
+    baseSpeed = 4.2;
+    speed = baseSpeed;
+    spawnTimer = 0;
+    spawnInterval = 70;
+    shakeTime = 0;
+    shakeMag = 0;
+  }
+
+  function startGame() {
+    resetGame();
+    running = true;
+    overlay.classList.add('hidden');
+    lastTime = performance.now();
+    requestAnimationFrame(loop);
+  }
+
+  function lerpColor(t) {
+    // t: 0 (calm, teal) -> 1 (hot, white-pink) based on combo intensity
+    const c1 = [94, 240, 192];
+    const c2 = [255, 84, 112];
+    const r = Math.round(c1[0] + (c2[0] - c1[0]) * t);
+    const g = Math.round(c1[1] + (c2[1] - c1[1]) * t);
+    const b = Math.round(c1[2] + (c2[2] - c1[2]) * t);
+    return `rgb(${r},${g},${b})`;
+  }
+
+  function spawnObstacleRow() {
+    const difficultyT = Math.min(distance / 6000, 1);
+    const gapMin = 70 - difficultyT * 22;
+    const numObstacles = 2 + Math.floor(Math.random() * 3) + Math.floor(difficultyT * 2);
+    const type = Math.random();
+
+    if (type < 0.55) {
+      // scattered blocks with gaps
+      const segs = 5 + Math.floor(Math.random() * 2);
+      const segW = W / segs;
+      let gapIdx = Math.floor(Math.random() * segs);
+      for (let i = 0; i < segs; i++) {
+        if (i === gapIdx) continue;
+        if (Math.random() < 0.15 + difficultyT * 0.1) continue; // occasional double gap for variety
+        obstacles.push({
+          x: i * segW + segW / 2,
+          y: -40,
+          w: segW * 0.82,
+          h: 26,
+          type: 'block'
+        });
+      }
+    } else if (type < 0.8) {
+      // moving pendulum-ish single block
+      obstacles.push({
+        x: W * (0.2 + Math.random() * 0.6),
+        y: -40,
+        w: Math.max(gapMin, 50),
+        h: 22,
+        type: 'block',
+        wobble: (Math.random() - 0.5) * 2.2,
+        wobblePhase: Math.random() * Math.PI * 2
+      });
+    } else {
+      // narrow gate pair (forces a precise line through middle)
+      const gateX = W * (0.3 + Math.random() * 0.4);
+      const gateGap = Math.max(46, gapMin);
+      obstacles.push({ x: gateX - gateGap / 2 - 80, y: -40, w: 160, h: 22, type: 'block' });
+      obstacles.push({ x: gateX + gateGap / 2 + 80, y: -40, w: 160, h: 22, type: 'block' });
+    }
+  }
+
+  function spawnParticleBurst(x, y, color, n) {
+    for (let i = 0; i < n; i++) {
+      const a = Math.random() * Math.PI * 2;
+      const sp = 1 + Math.random() * 3;
+      particles.push({
+        x, y,
+        vx: Math.cos(a) * sp,
+        vy: Math.sin(a) * sp,
+        life: 1,
+        color
+      });
+    }
+  }
+
+  let lastTime = 0;
+  function loop(now) {
+    if (!running) return;
+    const dt = Math.min((now - lastTime) / 16.67, 2.5);
+    lastTime = now;
+    update(dt);
+    draw();
+    requestAnimationFrame(loop);
+  }
+
+  function update(dt) {
+    distance += speed * dt;
+    score = Math.floor(distance / 10);
+
+    // gradually ramp speed
+    const difficultyT = Math.min(distance / 6000, 1);
+    speed = baseSpeed + difficultyT * 5.5;
+    spawnInterval = Math.max(34, 70 - difficultyT * 36);
+
+    // steering
+    const steerAccel = 0.85;
+    const friction = 0.86;
+    let targetVx = 0;
+    if (dragX !== null) {
+      targetVx = (dragX - player.x) * 0.18;
+    } else {
+      if (keys.left) targetVx -= 7.5;
+      if (keys.right) targetVx += 7.5;
+    }
+    player.vx += (targetVx - player.vx) * (dragX !== null ? 0.3 : steerAccel * 0.4);
+    player.vx *= friction;
+    player.x += player.vx * dt;
+    player.x = Math.max(PLAYER_R + 4, Math.min(W - PLAYER_R - 4, player.x));
+
+    // trail
+    trail.push({ x: player.x, y: player.y, life: 1 });
+    if (trail.length > 26) trail.shift();
+    trail.forEach(t => t.life -= 0.045 * dt);
+    trail = trail.filter(t => t.life > 0);
+
+    // spawn
+    spawnTimer += dt;
+    if (spawnTimer >= spawnInterval) {
+      spawnTimer = 0;
+      spawnObstacleRow();
+    }
+
+    // move obstacles, check collisions & near-misses
+    const comboIntensity = Math.min((combo - 1) / 18, 1);
+    for (let i = obstacles.length - 1; i >= 0; i--) {
+      const o = obstacles[i];
+      o.y += speed * dt;
+      if (o.wobble) {
+        o.wobblePhase += 0.025 * dt;
+        o.x += Math.sin(o.wobblePhase) * o.wobble * dt;
+      }
+
+      if (!o.scored && !o.hit) {
+        const closestX = Math.max(o.x - o.w / 2, Math.min(player.x, o.x + o.w / 2));
+        const closestY = Math.max(o.y - o.h / 2, Math.min(player.y, o.y + o.h / 2));
+        const dx = player.x - closestX;
+        const dy = player.y - closestY;
+        const distSq = dx * dx + dy * dy;
+        const collideR = PLAYER_R;
+
+        if (o.y - o.h / 2 > player.y + 60) {
+          // passed without ever scoring (shouldn't happen often) -> skip
+          o.scored = true;
+        } else if (distSq < collideR * collideR) {
+          // crash
+          o.hit = true;
+          triggerDeath();
+          return;
+        } else if (o.y - o.h / 2 > player.y - 50 && o.y - o.h / 2 < player.y + 50 && !o.passing) {
+          o.passing = true;
+        }
+
+        if (o.passing && o.y - o.h / 2 > player.y) {
+          o.scored = true;
+          const grazeDist = Math.sqrt(distSq) - collideR;
+          if (grazeDist < 34) {
+            combo += grazeDist < 14 ? 2 : 1;
+            maxComboThisRun = Math.max(maxComboThisRun, combo);
+            score += Math.floor(combo * 3);
+            spawnParticleBurst(player.x, player.y, lerpColor(comboIntensity), 8);
+            shakeTime = 6;
+            shakeMag = grazeDist < 14 ? 4 : 2;
+            comboDisplay.classList.add('combo-pop');
+            setTimeout(() => comboDisplay.classList.remove('combo-pop'), 140);
+          } else {
+            combo = Math.max(1, combo - 1);
+          }
+        }
+      }
+
+      if (o.y - o.h / 2 > H + 60) obstacles.splice(i, 1);
+    }
+
+    // particles
+    particles.forEach(p => {
+      p.x += p.vx * dt;
+      p.y += p.vy * dt;
+      p.life -= 0.035 * dt;
+    });
+    particles = particles.filter(p => p.life > 0);
+
+    if (shakeTime > 0) shakeTime -= dt;
+
+    scoreDisplay.textContent = score;
+    comboDisplay.textContent = '×' + combo;
+  }
+
+  function triggerDeath() {
+    running = false;
+    spawnParticleBurst(player.x, player.y, '#ff5470', 30);
+    deathFlash.style.transition = 'none';
+    deathFlash.style.opacity = '0.5';
+    requestAnimationFrame(() => {
+      deathFlash.style.transition = 'opacity 0.4s';
+      deathFlash.style.opacity = '0';
+    });
+
+    if (score > best) {
+      best = score;
+      try { localStorage.setItem('voidrunner_best', String(best)); } catch (e) { /* ignore */ }
+    }
+
+    setTimeout(() => {
+      finalScoreEl.textContent = score;
+      bestScoreEl.textContent = best;
+      maxComboEl.textContent = '×' + maxComboThisRun;
+      statRow.style.display = 'flex';
+      playBtn.textContent = 'Run Again';
+      overlay.classList.remove('hidden');
+    }, 500);
+
+    // let particles / flash render a couple frames before fully stopping draw loop
+    let fadeFrames = 20;
+    function fadeLoop() {
+      if (fadeFrames-- <= 0) return;
+      draw();
+      particles.forEach(p => { p.x += p.vx; p.y += p.vy; p.life -= 0.04; });
+      particles = particles.filter(p => p.life > 0);
+      requestAnimationFrame(fadeLoop);
+    }
+    fadeLoop();
+  }
+
+  function draw() {
+    ctx.clearRect(0, 0, W, H);
+
+    // background gradient + subtle grid
+    const grad = ctx.createLinearGradient(0, 0, 0, H);
+    grad.addColorStop(0, '#0c0c14');
+    grad.addColorStop(1, '#06060a');
+    ctx.fillStyle = grad;
+    ctx.fillRect(0, 0, W, H);
+
+    ctx.save();
+    if (shakeTime > 0) {
+      ctx.translate((Math.random() - 0.5) * shakeMag, (Math.random() - 0.5) * shakeMag);
+    }
+
+    // faint scroll lines for speed sense
+    const lineSpacing = 80;
+    const offset = (distance * 1.2) % lineSpacing;
+    ctx.strokeStyle = 'rgba(94,240,192,0.045)';
+    ctx.lineWidth = 1;
+    for (let y = -lineSpacing; y < H + lineSpacing; y += lineSpacing) {
+      const yy = y + offset;
+      ctx.beginPath();
+      ctx.moveTo(0, yy);
+      ctx.lineTo(W, yy);
+      ctx.stroke();
+    }
+
+    // trail
+    trail.forEach((t, i) => {
+      const alpha = t.life * 0.35;
+      ctx.beginPath();
+      ctx.fillStyle = `rgba(94,240,192,${alpha})`;
+      ctx.arc(t.x, t.y, PLAYER_R * t.life * 0.7, 0, Math.PI * 2);
+      ctx.fill();
+    });
+
+    // obstacles
+    obstacles.forEach(o => {
+      const nearPlayer = Math.abs(o.y - player.y) < 90;
+      ctx.fillStyle = nearPlayer ? '#ff8294' : '#3a4540';
+      ctx.shadowColor = nearPlayer ? 'rgba(255,84,112,0.5)' : 'transparent';
+      ctx.shadowBlur = nearPlayer ? 14 : 0;
+      roundRect(o.x - o.w / 2, o.y - o.h / 2, o.w, o.h, 5);
+      ctx.fill();
+    });
+    ctx.shadowBlur = 0;
+
+    // particles
+    particles.forEach(p => {
+      ctx.beginPath();
+      ctx.fillStyle = p.color || '#5ef0c0';
+      ctx.globalAlpha = Math.max(p.life, 0);
+      ctx.arc(p.x, p.y, 2.5, 0, Math.PI * 2);
+      ctx.fill();
+    });
+    ctx.globalAlpha = 1;
+
+    // player
+    const comboIntensity = Math.min((combo - 1) / 18, 1);
+    const pColor = lerpColor(comboIntensity);
+    ctx.beginPath();
+    ctx.fillStyle = pColor;
+    ctx.shadowColor = pColor;
+    ctx.shadowBlur = 18 + comboIntensity * 16;
+    ctx.arc(player.x, player.y, PLAYER_R, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.shadowBlur = 0;
+
+    ctx.restore();
+  }
+
+  function roundRect(x, y, w, h, r) {
+    ctx.beginPath();
+    ctx.moveTo(x + r, y);
+    ctx.arcTo(x + w, y, x + w, y + h, r);
+    ctx.arcTo(x + w, y + h, x, y + h, r);
+    ctx.arcTo(x, y + h, x, y, r);
+    ctx.arcTo(x, y, x + w, y, r);
+    ctx.closePath();
+  }
+
+  // input
+  window.addEventListener('keydown', e => {
+    if (e.key === 'ArrowLeft' || e.key.toLowerCase() === 'a') keys.left = true;
+    if (e.key === 'ArrowRight' || e.key.toLowerCase() === 'd') keys.right = true;
+    if (e.key === ' ' && !running) startGame();
+  });
+  window.addEventListener('keyup', e => {
+    if (e.key === 'ArrowLeft' || e.key.toLowerCase() === 'a') keys.left = false;
+    if (e.key === 'ArrowRight' || e.key.toLowerCase() === 'd') keys.right = false;
+  });
+
+  canvas.addEventListener('pointerdown', e => { dragX = e.clientX; });
+  canvas.addEventListener('pointermove', e => { if (dragX !== null) dragX = e.clientX; });
+  window.addEventListener('pointerup', () => { dragX = null; });
+  canvas.addEventListener('pointerleave', () => {});
+
+  playBtn.addEventListener('click', startGame);
+
+  // initial draw of empty void behind overlay
+  player = { x: W / 2, y: H * 0.82, vx: 0 };
+  obstacles = []; particles = []; trail = [];
+  distance = 0; combo = 1; speed = baseSpeed = 4.2;
+  draw();
+})();
+</script>
+
+</body>
+</html>

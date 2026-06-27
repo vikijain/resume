@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Basket Catch!</title>
+<style>
+  :root {
+    --sky-top: #aee6ff;
+    --sky-bottom: #ffffff;
+    --grass: #8ee06b;
+    --grass-dark: #6cc24a;
+    --sun: #ffd24a;
+    --text: #3a3a3a;
+    --pink: #ff7fa8;
+    --purple: #b48cff;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html, body {
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Comic Sans MS', 'Trebuchet MS', sans-serif;
+    touch-action: none;
+  }
+
+  #gameCanvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .hud {
+    position: fixed;
+    top: 16px;
+    left: 0; right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    pointer-events: none;
+    z-index: 10;
+  }
+
+  .hud-pill {
+    background: rgba(255,255,255,0.85);
+    border-radius: 999px;
+    padding: 10px 22px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    font-weight: bold;
+    font-size: 22px;
+    color: var(--text);
+  }
+
+  .hud-icon { font-size: 24px; }
+
+  #overlay {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, var(--sky-top), #d6f3ff);
+    z-index: 20;
+    text-align: center;
+    padding: 24px;
+  }
+
+  #overlay.hidden { display: none; }
+
+  .title {
+    font-size: clamp(40px, 11vw, 72px);
+    font-weight: bold;
+    color: var(--pink);
+    text-shadow: 3px 3px 0 #fff, 5px 5px 0 rgba(0,0,0,0.08);
+    margin-bottom: 6px;
+  }
+
+  .subtitle {
+    font-size: clamp(18px, 4vw, 24px);
+    color: var(--text);
+    margin-bottom: 28px;
+    font-weight: bold;
+  }
+
+  .fruit-row {
+    display: flex;
+    gap: 14px;
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+
+  .fruit-row span {
+    animation: bob 1.6s ease-in-out infinite;
+  }
+  .fruit-row span:nth-child(2) { animation-delay: 0.2s; }
+  .fruit-row span:nth-child(3) { animation-delay: 0.4s; }
+  .fruit-row span:nth-child(4) { animation-delay: 0.6s; }
+
+  @keyframes bob {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+
+  .play-btn {
+    background: var(--pink);
+    color: #fff;
+    border: none;
+    border-radius: 999px;
+    padding: 20px 56px;
+    font-family: inherit;
+    font-size: clamp(22px, 5vw, 28px);
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 6px 0 #d65b85, 0 8px 20px rgba(0,0,0,0.15);
+    transition: transform 0.1s;
+  }
+
+  .play-btn:active {
+    transform: translateY(4px);
+    box-shadow: 0 2px 0 #d65b85, 0 4px 12px rgba(0,0,0,0.15);
+  }
+
+  .instructions {
+    margin-top: 26px;
+    font-size: 16px;
+    color: var(--text);
+    max-width: 320px;
+    line-height: 1.6;
+    font-weight: bold;
+  }
+
+  .stat-row {
+    display: flex;
+    gap: 36px;
+    margin-bottom: 28px;
+  }
+
+  .stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stat-num {
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--purple);
+  }
+
+  .stat-label {
+    font-size: 14px;
+    color: var(--text);
+    font-weight: bold;
+  }
+
+  .star-row {
+    font-size: 44px;
+    margin-bottom: 18px;
+    letter-spacing: 6px;
+  }
+
+  @media (max-width: 480px) {
+    .hud { gap: 20px; }
+    .hud-pill { font-size: 18px; padding: 8px 16px; }
+  }
+
+  #soundToggle {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    z-index: 30;
+    background: rgba(255,255,255,0.85);
+    border: none;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+</style>
+</head>
+<body>
+
+<canvas id="gameCanvas"></canvas>
+
+<button id="soundToggle">🔊</button>
+
+<div class="hud">
+  <div class="hud-pill"><span class="hud-icon">🧺</span><span id="scoreDisplay">0</span></div>
+  <div class="hud-pill"><span class="hud-icon">❤️</span><span id="livesDisplay">3</span></div>
+</div>
+
+<div id="overlay">
+  <div class="title">Basket Catch!</div>
+  <div class="subtitle">Catch the yummy fruit!</div>
+  <div class="fruit-row">
+    <span>🍎</span><span>🍌</span><span>🍇</span><span>⭐</span>
+  </div>
+  <button class="play-btn" id="playBtn">Let's Play!</button>
+  <div class="instructions">
+    Move your finger or the arrow keys to slide the basket.<br>
+    Catch fruit for points. Catch a star for a bonus!
+  </div>
+</div>
+
+<script>
+(function() {
+  const canvas = document.getElementById('gameCanvas');
+  const ctx = canvas.getContext('2d');
+  const overlay = document.getElementById('overlay');
+  const playBtn = document.getElementById('playBtn');
+  const scoreDisplay = document.getElementById('scoreDisplay');
+  const livesDisplay = document.getElementById('livesDisplay');
+  const soundToggle = document.getElementById('soundToggle');
+
+  // ---- Sound engine (Web Audio API, no external files) ----
+  let audioCtx = null;
+  let soundOn = true;
+
+  function getAudioCtx() {
+    if (!audioCtx) {
+      audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    }
+    if (audioCtx.state === 'suspended') audioCtx.resume();
+    return audioCtx;
+  }
+
+  function playTone(freq, duration, type, startGain, glideTo) {
+    if (!soundOn) return;
+    try {
+      const ac = getAudioCtx();
+      const osc = ac.createOscillator();
+      const gain = ac.createGain();
+      osc.type = type || 'sine';
+      osc.frequency.setValueAtTime(freq, ac.currentTime);
+      if (glideTo) {
+        osc.frequency.exponentialRampToValueAtTime(glideTo, ac.currentTime + duration);
+      }
+      gain.gain.setValueAtTime(startGain || 0.2, ac.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, ac.currentTime + duration);
+      osc.connect(gain);
+      gain.connect(ac.destination);
+      osc.start();
+      osc.stop(ac.currentTime + duration);
+    } catch (e) { /* audio unavailable, ignore */ }
+  }
+
+  function sfxCatch() {
+    playTone(523, 0.12, 'sine', 0.18, 880);
+  }
+  function sfxStar() {
+    playTone(660, 0.1, 'triangle', 0.2, 1320);
+    setTimeout(() => playTone(990, 0.15, 'triangle', 0.18, 1760), 80);
+  }
+  function sfxMiss() {
+    playTone(220, 0.2, 'sine', 0.12, 140);
+  }
+  function sfxGameOver() {
+    playTone(392, 0.18, 'sine', 0.15, 330);
+    setTimeout(() => playTone(330, 0.18, 'sine', 0.15, 262), 150);
+    setTimeout(() => playTone(523, 0.3, 'sine', 0.18, 660), 320);
+  }
+  function sfxClick() {
+    playTone(700, 0.08, 'square', 0.08);
+  }
+
+  soundToggle.addEventListener('click', () => {
+    soundOn = !soundOn;
+    soundToggle.textContent = soundOn ? '🔊' : '🔇';
+    if (soundOn) {
+      getAudioCtx();
+      sfxClick();
+    }
+  });
+  // ---- End sound engine ----
+
+
+  let W, H, DPR;
+  function resize() {
+    DPR = Math.min(window.devicePixelRatio || 1, 2);
+    W = window.innerWidth;
+    H = window.innerHeight;
+    canvas.width = W * DPR;
+    canvas.height = H * DPR;
+    canvas.style.width = W + 'px';
+    canvas.style.height = H + 'px';
+    ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+  }
+  window.addEventListener('resize', resize);
+  resize();
+
+  let running = false;
+  let basket, items, particles, popups;
+  let score, lives, spawnTimer, spawnInterval, fallSpeed, time;
+  let pointerX = null;
+  let keys = { left: false, right: false };
+  let mascot = { mood: 'happy', moodTimer: 0, bob: 0, msg: '', msgTimer: 0 };
+
+  const CHEER_MESSAGES = ['Yay!', 'Nice catch!', 'Wow!', 'Yum!', 'Great job!', 'Woohoo!'];
+  const STAR_MESSAGES = ['Super star!', 'Amazing!', 'Sparkly!'];
+  const MISS_MESSAGES = ["Oops, that's okay!", 'Try again!', 'Almost!'];
+
+  const BASKET_W = 120;
+  const BASKET_H = 60;
+  const ITEM_TYPES = [
+    { emoji: '🍎', points: 1, weight: 5 },
+    { emoji: '🍌', points: 1, weight: 5 },
+    { emoji: '🍇', points: 2, weight: 4 },
+    { emoji: '🍊', points: 1, weight: 5 },
+    { emoji: '⭐', points: 5, weight: 1, special: true }
+  ];
+
+  function pickItemType() {
+    const totalWeight = ITEM_TYPES.reduce((s, t) => s + t.weight, 0);
+    let r = Math.random() * totalWeight;
+    for (const t of ITEM_TYPES) {
+      if (r < t.weight) return t;
+      r -= t.weight;
+    }
+    return ITEM_TYPES[0];
+  }
+
+  function resetGame() {
+    basket = { x: W / 2, y: H - 90 };
+    items = [];
+    particles = [];
+    popups = [];
+    score = 0;
+    lives = 3;
+    spawnTimer = 0;
+    spawnInterval = 70;
+    fallSpeed = 2.2;
+    time = 0;
+    pointerX = null;
+    scoreDisplay.textContent = score;
+    livesDisplay.textContent = '❤️'.repeat(lives) || '💔';
+    mascot = { mood: 'happy', moodTimer: 0, bob: 0, msg: '', msgTimer: 0 };
+  }
+
+  function startGame() {
+    resetGame();
+    running = true;
+    overlay.classList.add('hidden');
+    lastTime = performance.now();
+    requestAnimationFrame(loop);
+  }
+
+  function spawnItem() {
+    const type = pickItemType();
+    // Cap the play zone width so fruit never spawns farther than the basket can
+    // realistically travel in time, even on very wide desktop screens.
+    const playZoneW = Math.min(W - 80, 640);
+    const playZoneStart = (W - playZoneW) / 2;
+    items.push({
+      x: playZoneStart + Math.random() * playZoneW,
+      y: -30,
+      type,
+      wobble: Math.random() * Math.PI * 2,
+      rot: 0
+    });
+  }
+
+  function spawnParticles(x, y, color, n) {
+    for (let i = 0; i < n; i++) {
+      const a = Math.random() * Math.PI * 2;
+      const sp = 1 + Math.random() * 2.5;
+      particles.push({
+        x, y,
+        vx: Math.cos(a) * sp,
+        vy: Math.sin(a) * sp - 1,
+        life: 1,
+        color
+      });
+    }
+  }
+
+  function spawnPopup(x, y, text, color) {
+    popups.push({ x, y, text, life: 1, color });
+  }
+
+  function cheerMascot(mood, messages) {
+    mascot.mood = mood;
+    mascot.moodTimer = 50;
+    mascot.msg = messages[Math.floor(Math.random() * messages.length)];
+    mascot.msgTimer = 60;
+  }
+
+  let lastTime = 0;
+  function loop(now) {
+    if (!running) return;
+    const dt = Math.min((now - lastTime) / 16.67, 2.5);
+    lastTime = now;
+    update(dt);
+    draw();
+    requestAnimationFrame(loop);
+  }
+
+  function update(dt) {
+    time += dt;
+
+    // gentle difficulty ramp, capped so it stays easy
+    fallSpeed = Math.min(2.2 + time * 0.0025, 4.2);
+    spawnInterval = Math.max(46, 70 - time * 0.02);
+
+    // basket movement
+    const targetX = pointerX !== null ? pointerX : null;
+    if (targetX !== null) {
+      basket.x += (targetX - basket.x) * 0.25;
+    } else {
+      if (keys.left) basket.x -= 7 * dt;
+      if (keys.right) basket.x += 7 * dt;
+    }
+    basket.x = Math.max(BASKET_W / 2, Math.min(W - BASKET_W / 2, basket.x));
+
+    // spawn
+    spawnTimer += dt;
+    if (spawnTimer >= spawnInterval) {
+      spawnTimer = 0;
+      spawnItem();
+    }
+
+    // items
+    for (let i = items.length - 1; i >= 0; i--) {
+      const it = items[i];
+      it.y += fallSpeed * dt;
+      it.wobble += 0.05 * dt;
+      it.x += Math.sin(it.wobble) * 0.4 * dt;
+      it.rot += 0.02 * dt;
+
+      // catch check
+      const dx = it.x - basket.x;
+      const dy = it.y - (basket.y - 10);
+      if (Math.abs(dx) < BASKET_W / 2 - 5 && Math.abs(dy) < BASKET_H / 2 + 10 && it.y > basket.y - 40) {
+        score += it.type.points;
+        scoreDisplay.textContent = score;
+        spawnParticles(it.x, it.y, it.type.special ? '#ffd24a' : '#ff7fa8', it.type.special ? 16 : 8);
+        spawnPopup(it.x, it.y - 20, '+' + it.type.points, it.type.special ? '#ffb000' : '#ff5fa0');
+        items.splice(i, 1);
+        if (it.type.special) {
+          sfxStar();
+          cheerMascot('excited', STAR_MESSAGES);
+        } else {
+          sfxCatch();
+          cheerMascot('happy', CHEER_MESSAGES);
+        }
+        continue;
+      }
+
+      // missed (fell past bottom)
+      if (it.y > H + 30) {
+        items.splice(i, 1);
+        if (!it.type.special) {
+          lives -= 1;
+          livesDisplay.textContent = '❤️'.repeat(Math.max(lives, 0)) || '💔';
+          sfxMiss();
+          cheerMascot('concerned', MISS_MESSAGES);
+          if (lives <= 0) {
+            triggerGameOver();
+            return;
+          }
+        }
+      }
+    }
+
+    // particles
+    particles.forEach(p => {
+      p.x += p.vx * dt;
+      p.y += p.vy * dt;
+      p.vy += 0.08 * dt;
+      p.life -= 0.03 * dt;
+    });
+    particles = particles.filter(p => p.life > 0);
+
+    // popups
+    popups.forEach(p => {
+      p.y -= 0.6 * dt;
+      p.life -= 0.025 * dt;
+    });
+    popups = popups.filter(p => p.life > 0);
+
+    // mascot idle bob + mood decay
+    mascot.bob += 0.06 * dt;
+    if (mascot.moodTimer > 0) {
+      mascot.moodTimer -= dt;
+      if (mascot.moodTimer <= 0) mascot.mood = 'happy';
+    }
+    if (mascot.msgTimer > 0) mascot.msgTimer -= dt;
+  }
+
+  function triggerGameOver() {
+    running = false;
+    sfxGameOver();
+    mascot.mood = 'cheer';
+    setTimeout(() => {
+      showGameOver();
+    }, 400);
+  }
+
+  function showGameOver() {
+    overlay.innerHTML = `
+      <div class="title" style="font-size:clamp(34px,9vw,56px);">Great Job!</div>
+      <div class="star-row">${'⭐'.repeat(Math.min(5, Math.max(1, Math.ceil(score / 8))))}</div>
+      <div class="stat-row">
+        <div class="stat">
+          <div class="stat-num">${score}</div>
+          <div class="stat-label">Fruit Caught</div>
+        </div>
+      </div>
+      <button class="play-btn" id="playAgainBtn">Play Again!</button>
+    `;
+    overlay.classList.remove('hidden');
+    document.getElementById('playAgainBtn').addEventListener('click', () => {
+      sfxClick();
+      startGame();
+    });
+  }
+
+  function draw() {
+    ctx.clearRect(0, 0, W, H);
+
+    // sky
+    const grad = ctx.createLinearGradient(0, 0, 0, H);
+    grad.addColorStop(0, '#aee6ff');
+    grad.addColorStop(0.75, '#d6f3ff');
+    grad.addColorStop(0.75, '#8ee06b');
+    grad.addColorStop(1, '#6cc24a');
+    ctx.fillStyle = grad;
+    ctx.fillRect(0, 0, W, H);
+
+    // sun
+    ctx.beginPath();
+    ctx.fillStyle = '#ffd24a';
+    ctx.arc(W - 70, 70, 38, 0, Math.PI * 2);
+    ctx.fill();
+
+    // clouds
+    drawCloud(W * 0.2, 90, 1);
+    drawCloud(W * 0.55, 60, 0.8);
+
+    // grass line texture
+    const grassY = H * 0.78;
+    ctx.fillStyle = 'rgba(0,0,0,0.05)';
+    for (let x = 0; x < W; x += 26) {
+      ctx.beginPath();
+      ctx.moveTo(x, H);
+      ctx.lineTo(x + 8, grassY);
+      ctx.lineTo(x + 16, H);
+      ctx.fill();
+    }
+
+    // falling items
+    items.forEach(it => {
+      ctx.save();
+      ctx.translate(it.x, it.y);
+      ctx.rotate(it.rot);
+      ctx.font = '46px "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji","Segoe UI Symbol",sans-serif';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillStyle = '#000'; // reset from grass texture's near-transparent fillStyle, which was bleeding into emoji rendering
+      // soft dark halo behind the emoji so it reads clearly against the bright sky
+      ctx.shadowColor = 'rgba(0,0,0,0.35)';
+      ctx.shadowBlur = 10;
+      ctx.fillText(it.type.emoji, 0, 0);
+      ctx.shadowBlur = 0;
+      ctx.fillText(it.type.emoji, 0, 0);
+      ctx.restore();
+    });
+
+    // particles
+    particles.forEach(p => {
+      ctx.beginPath();
+      ctx.fillStyle = p.color;
+      ctx.globalAlpha = Math.max(p.life, 0);
+      ctx.arc(p.x, p.y, 4, 0, Math.PI * 2);
+      ctx.fill();
+    });
+    ctx.globalAlpha = 1;
+
+    // popups
+    popups.forEach(p => {
+      ctx.font = 'bold 22px Comic Sans MS, sans-serif';
+      ctx.textAlign = 'center';
+      ctx.fillStyle = p.color;
+      ctx.globalAlpha = Math.max(p.life, 0);
+      ctx.fillText(p.text, p.x, p.y);
+    });
+    ctx.globalAlpha = 1;
+
+    // basket
+    drawBasket(basket.x, basket.y);
+
+    // mascot buddy
+    drawMascot();
+  }
+
+  function drawMascot() {
+    const baseX = Math.max(54, Math.min(W - 54, basket.x - BASKET_W / 2 - 56));
+    const baseY = H - 70;
+    const bobAmount = mascot.mood === 'excited' || mascot.mood === 'cheer' ? 8 : 4;
+    const bobSpeed = mascot.mood === 'excited' || mascot.mood === 'cheer' ? 1.8 : 1;
+    const yOff = Math.sin(mascot.bob * bobSpeed) * bobAmount;
+    const squish = mascot.mood === 'concerned' ? 0.92 : 1;
+
+    ctx.save();
+    ctx.translate(baseX, baseY + yOff);
+    ctx.scale(squish, 1 / squish * 0.94 + 0.06);
+
+    // tail
+    ctx.fillStyle = '#ff9d5c';
+    ctx.beginPath();
+    ctx.ellipse(22, 6, 16, 9, 0.5, 0, Math.PI * 2);
+    ctx.fill();
+
+    // body
+    ctx.fillStyle = '#ffb066';
+    ctx.beginPath();
+    ctx.ellipse(0, 8, 26, 24, 0, 0, Math.PI * 2);
+    ctx.fill();
+
+    // belly
+    ctx.fillStyle = '#fff3e0';
+    ctx.beginPath();
+    ctx.ellipse(0, 14, 15, 14, 0, 0, Math.PI * 2);
+    ctx.fill();
+
+    // ears
+    ctx.fillStyle = '#ffb066';
+    ctx.beginPath();
+    ctx.moveTo(-18, -18);
+    ctx.lineTo(-26, -38);
+    ctx.lineTo(-8, -24);
+    ctx.closePath();
+    ctx.fill();
+    ctx.beginPath();
+    ctx.moveTo(18, -18);
+    ctx.lineTo(26, -38);
+    ctx.lineTo(8, -24);
+    ctx.closePath();
+    ctx.fill();
+    ctx.fillStyle = '#ffe0b8';
+    ctx.beginPath();
+    ctx.moveTo(-16, -20);
+    ctx.lineTo(-21, -32);
+    ctx.lineTo(-11, -23);
+    ctx.closePath();
+    ctx.fill();
+    ctx.beginPath();
+    ctx.moveTo(16, -20);
+    ctx.lineTo(21, -32);
+    ctx.lineTo(11, -23);
+    ctx.closePath();
+    ctx.fill();
+
+    // head
+    ctx.fillStyle = '#ffb066';
+    ctx.beginPath();
+    ctx.arc(0, -14, 19, 0, Math.PI * 2);
+    ctx.fill();
+
+    // muzzle
+    ctx.fillStyle = '#fff3e0';
+    ctx.beginPath();
+    ctx.ellipse(0, -8, 10, 7, 0, 0, Math.PI * 2);
+    ctx.fill();
+
+    // nose
+    ctx.fillStyle = '#5a3a2a';
+    ctx.beginPath();
+    ctx.arc(0, -9, 2.4, 0, Math.PI * 2);
+    ctx.fill();
+
+    // eyes
+    const eyeY = -17;
+    if (mascot.mood === 'concerned') {
+      // worried eyes (small arcs)
+      ctx.strokeStyle = '#3a3a3a';
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.arc(-7, eyeY, 3, Math.PI, Math.PI * 2);
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.arc(7, eyeY, 3, Math.PI, Math.PI * 2);
+      ctx.stroke();
+    } else {
+      ctx.fillStyle = '#3a3a3a';
+      const eyeSize = mascot.mood === 'excited' || mascot.mood === 'cheer' ? 3.6 : 3;
+      ctx.beginPath();
+      ctx.arc(-7, eyeY, eyeSize, 0, Math.PI * 2);
+      ctx.arc(7, eyeY, eyeSize, 0, Math.PI * 2);
+      ctx.fill();
+      // sparkle
+      ctx.fillStyle = '#fff';
+      ctx.beginPath();
+      ctx.arc(-8, eyeY - 1, 1, 0, Math.PI * 2);
+      ctx.arc(6, eyeY - 1, 1, 0, Math.PI * 2);
+      ctx.fill();
+    }
+
+    // mouth
+    ctx.strokeStyle = '#5a3a2a';
+    ctx.lineWidth = 2;
+    ctx.beginPath();
+    if (mascot.mood === 'concerned') {
+      ctx.arc(0, -2, 4, Math.PI * 1.15, Math.PI * 1.85);
+    } else if (mascot.mood === 'excited' || mascot.mood === 'cheer') {
+      ctx.arc(0, -4, 6, 0.15 * Math.PI, 0.85 * Math.PI);
+    } else {
+      ctx.arc(0, -3, 5, 0.1 * Math.PI, 0.9 * Math.PI);
+    }
+    ctx.stroke();
+
+    // cheeks
+    ctx.fillStyle = 'rgba(255,150,150,0.4)';
+    ctx.beginPath();
+    ctx.arc(-13, -7, 4, 0, Math.PI * 2);
+    ctx.arc(13, -7, 4, 0, Math.PI * 2);
+    ctx.fill();
+
+    // arms (raised when cheering)
+    ctx.strokeStyle = '#ffb066';
+    ctx.lineWidth = 7;
+    ctx.lineCap = 'round';
+    if (mascot.mood === 'excited' || mascot.mood === 'cheer') {
+      ctx.beginPath();
+      ctx.moveTo(-22, 4);
+      ctx.lineTo(-32, -14);
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.moveTo(22, 4);
+      ctx.lineTo(32, -14);
+      ctx.stroke();
+    } else {
+      ctx.beginPath();
+      ctx.moveTo(-23, 6);
+      ctx.lineTo(-30, 16);
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.moveTo(23, 6);
+      ctx.lineTo(30, 16);
+      ctx.stroke();
+    }
+
+    ctx.restore();
+
+    // speech bubble
+    if (mascot.msgTimer > 0) {
+      const alpha = Math.min(mascot.msgTimer / 15, 1);
+      const bubbleY = baseY - 56;
+      ctx.font = 'bold 16px Comic Sans MS, sans-serif';
+      const textW = ctx.measureText(mascot.msg).width;
+      const padX = 14, padY = 9;
+      const bw = textW + padX * 2;
+      const bh = 30;
+      const bx = Math.max(8, Math.min(W - bw - 8, baseX - bw / 2));
+
+      ctx.globalAlpha = alpha;
+      ctx.fillStyle = '#fff';
+      ctx.strokeStyle = '#ffb066';
+      ctx.lineWidth = 2;
+      roundRectPath(bx, bubbleY - bh / 2, bw, bh, 14);
+      ctx.fill();
+      ctx.stroke();
+
+      // little tail on bubble pointing to mascot
+      ctx.beginPath();
+      ctx.moveTo(baseX - 6, bubbleY + bh / 2 - 2);
+      ctx.lineTo(baseX + 4, bubbleY + bh / 2 - 2);
+      ctx.lineTo(baseX - 2, bubbleY + bh / 2 + 10);
+      ctx.closePath();
+      ctx.fillStyle = '#fff';
+      ctx.fill();
+
+      ctx.fillStyle = '#3a3a3a';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillText(mascot.msg, bx + bw / 2, bubbleY);
+      ctx.globalAlpha = 1;
+    }
+  }
+
+  function roundRectPath(x, y, w, h, r) {
+    ctx.beginPath();
+    ctx.moveTo(x + r, y);
+    ctx.arcTo(x + w, y, x + w, y + h, r);
+    ctx.arcTo(x + w, y + h, x, y + h, r);
+    ctx.arcTo(x, y + h, x, y, r);
+    ctx.arcTo(x, y, x + w, y, r);
+    ctx.closePath();
+  }
+
+  function drawCloud(x, y, scale) {
+    ctx.save();
+    ctx.translate(x, y);
+    ctx.scale(scale, scale);
+    ctx.fillStyle = 'rgba(255,255,255,0.9)';
+    ctx.beginPath();
+    ctx.arc(0, 0, 22, 0, Math.PI * 2);
+    ctx.arc(26, -8, 26, 0, Math.PI * 2);
+    ctx.arc(52, 0, 20, 0, Math.PI * 2);
+    ctx.arc(24, 10, 24, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.restore();
+  }
+
+  function drawBasket(x, y) {
+    ctx.save();
+    ctx.translate(x, y);
+
+    // basket body
+    ctx.fillStyle = '#c97b3d';
+    ctx.beginPath();
+    ctx.moveTo(-BASKET_W / 2, -10);
+    ctx.lineTo(BASKET_W / 2, -10);
+    ctx.lineTo(BASKET_W / 2 - 12, BASKET_H / 2);
+    ctx.lineTo(-BASKET_W / 2 + 12, BASKET_H / 2);
+    ctx.closePath();
+    ctx.fill();
+
+    // weave lines
+    ctx.strokeStyle = 'rgba(0,0,0,0.15)';
+    ctx.lineWidth = 2;
+    for (let i = -1; i <= 1; i++) {
+      ctx.beginPath();
+      ctx.moveTo(i * BASKET_W / 4, -8);
+      ctx.lineTo(i * BASKET_W / 5, BASKET_H / 2 - 4);
+      ctx.stroke();
+    }
+
+    // rim
+    ctx.fillStyle = '#a85f2a';
+    ctx.beginPath();
+    ctx.ellipse(0, -10, BASKET_W / 2, 8, 0, 0, Math.PI * 2);
+    ctx.fill();
+
+    // handle
+    ctx.strokeStyle = '#8a4a1e';
+    ctx.lineWidth = 5;
+    ctx.beginPath();
+    ctx.arc(0, -10, BASKET_W / 2 - 8, Math.PI, Math.PI * 2);
+    ctx.stroke();
+
+    ctx.restore();
+  }
+
+  // input: keyboard
+  window.addEventListener('keydown', e => {
+    if (e.key === 'ArrowLeft') keys.left = true;
+    if (e.key === 'ArrowRight') keys.right = true;
+  });
+  window.addEventListener('keyup', e => {
+    if (e.key === 'ArrowLeft') keys.left = false;
+    if (e.key === 'ArrowRight') keys.right = false;
+  });
+
+  // input: pointer / touch — basket follows finger/mouse x directly
+  canvas.addEventListener('pointerdown', e => { pointerX = e.clientX; });
+  canvas.addEventListener('pointermove', e => { pointerX = e.clientX; });
+  window.addEventListener('pointerup', () => {});
+
+  playBtn.addEventListener('click', () => {
+    getAudioCtx();
+    sfxClick();
+    startGame();
+  });
+
+  // initial idle background
+  basket = { x: W / 2, y: H - 90 };
+  items = []; particles = []; popups = [];
+  mascot = { mood: 'happy', moodTimer: 0, bob: 0, msg: 'Tap play with me!', msgTimer: 9999 };
+  draw();
+
+  function idleLoop() {
+    if (running) return;
+    mascot.bob += 0.06;
+    draw();
+    requestAnimationFrame(idleLoop);
+  }
+  requestAnimationFrame(idleLoop);
+})();
+</script>
+
+</body>
+</html>

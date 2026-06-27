@@ -1,0 +1,1148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Forest Hunt</title>
+<style>
+  :root {
+    --canopy-dark: #0d2818;
+    --canopy: #1a3d24;
+    --moss: #2f5233;
+    --bark: #5c3a21;
+    --bark-dark: #3e2715;
+    --berry: #d6453d;
+    --sun: #f4c95d;
+    --cream: #f4ecd8;
+    --snake: #4caf50;
+    --snake-dark: #2e7d32;
+    --blood-thorn: #8b3a3a;
+    --ui-panel: rgba(13, 30, 20, 0.88);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html, body {
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background: var(--canopy-dark);
+    touch-action: none;
+    -webkit-user-select: none;
+    user-select: none;
+    color: var(--cream);
+  }
+
+  #app {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #gameCanvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* ---------- Shared screen styles ---------- */
+  .screen {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(ellipse at top, #143420 0%, #0a1d12 70%);
+    z-index: 20;
+    text-align: center;
+    padding: 24px;
+  }
+  .screen.hidden { display: none; }
+
+  .game-title {
+    font-size: clamp(36px, 9vw, 60px);
+    font-weight: bold;
+    letter-spacing: 0.04em;
+    color: var(--sun);
+    text-shadow: 0 0 18px rgba(244,201,93,0.35), 3px 3px 0 rgba(0,0,0,0.4);
+    margin-bottom: 4px;
+  }
+
+  .game-subtitle {
+    font-size: 15px;
+    letter-spacing: 0.08em;
+    color: #9fc9a8;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+
+  .menu-section {
+    margin-bottom: 22px;
+    width: min(380px, 86vw);
+  }
+
+  .menu-label {
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #7fa888;
+    margin-bottom: 10px;
+  }
+
+  .map-row, .level-row {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .map-card {
+    background: var(--ui-panel);
+    border: 2px solid #2f5233;
+    border-radius: 14px;
+    padding: 14px 16px;
+    cursor: pointer;
+    width: 150px;
+    transition: transform 0.12s, border-color 0.15s;
+  }
+  .map-card.selected {
+    border-color: var(--sun);
+    box-shadow: 0 0 16px rgba(244,201,93,0.25);
+  }
+  .map-card:active { transform: scale(0.96); }
+  .map-card-icon { font-size: 30px; margin-bottom: 6px; }
+  .map-card-name { font-size: 14px; font-weight: bold; color: var(--cream); }
+  .map-card-desc { font-size: 11px; color: #8fb89a; margin-top: 3px; line-height: 1.4; }
+
+  .level-pill {
+    background: var(--ui-panel);
+    border: 2px solid #2f5233;
+    border-radius: 999px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    color: var(--cream);
+  }
+  .level-pill.selected {
+    border-color: var(--sun);
+    background: rgba(244,201,93,0.12);
+    color: var(--sun);
+  }
+  .level-pill.locked {
+    opacity: 0.4;
+    cursor: default;
+  }
+
+  .play-btn {
+    background: linear-gradient(160deg, #5fb86a, #3a8745);
+    color: #0d2818;
+    border: none;
+    border-radius: 999px;
+    padding: 16px 48px;
+    font-family: inherit;
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    box-shadow: 0 6px 0 #2a5c32, 0 10px 22px rgba(0,0,0,0.35);
+    transition: transform 0.1s;
+    margin-top: 8px;
+  }
+  .play-btn:active {
+    transform: translateY(4px);
+    box-shadow: 0 2px 0 #2a5c32, 0 6px 14px rgba(0,0,0,0.35);
+  }
+
+  .instructions {
+    margin-top: 22px;
+    font-size: 13px;
+    color: #8fb89a;
+    max-width: 340px;
+    line-height: 1.7;
+  }
+  .instructions b { color: var(--sun); }
+
+  /* ---------- HUD ---------- */
+  .hud {
+    position: fixed;
+    top: 14px;
+    left: 0; right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+    z-index: 10;
+    pointer-events: none;
+  }
+
+  .hud-pill {
+    background: var(--ui-panel);
+    border-radius: 999px;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+  }
+
+  .hearts { display: flex; gap: 3px; font-size: 18px; }
+  .heart-lost { opacity: 0.25; }
+
+  #pauseBtn {
+    pointer-events: all;
+    background: var(--ui-panel);
+    border: none;
+    color: var(--cream);
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .hud-right { display: flex; gap: 10px; align-items: center; }
+
+  /* ---------- Touch controls ---------- */
+  #touchControls {
+    position: fixed;
+    bottom: 18px;
+    right: 18px;
+    z-index: 15;
+    display: grid;
+    grid-template-columns: 52px 52px 52px;
+    grid-template-rows: 52px 52px 52px;
+    gap: 4px;
+  }
+  .touch-btn {
+    background: rgba(244,236,216,0.12);
+    border: 1px solid rgba(244,236,216,0.25);
+    border-radius: 12px;
+    color: var(--cream);
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .touch-btn:active { background: rgba(244,236,216,0.28); }
+
+  /* ---------- Toast / banner ---------- */
+  #banner {
+    position: fixed;
+    top: 70px;
+    left: 0; right: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 12;
+    pointer-events: none;
+  }
+  .banner-text {
+    background: var(--ui-panel);
+    padding: 10px 24px;
+    border-radius: 999px;
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--sun);
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s, transform 0.3s;
+  }
+  .banner-text.show { opacity: 1; transform: translateY(0); }
+
+  /* ---------- Win/lose overlays ---------- */
+  .result-card {
+    background: var(--ui-panel);
+    border: 2px solid #2f5233;
+    border-radius: 22px;
+    padding: 32px 28px;
+    width: min(360px, 88vw);
+  }
+
+  .result-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--sun);
+    margin-bottom: 6px;
+  }
+
+  .result-sub { font-size: 13px; color: #9fc9a8; margin-bottom: 22px; }
+
+  .stat-row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 24px;
+  }
+  .stat-num { font-size: 28px; font-weight: bold; color: var(--cream); }
+  .stat-label { font-size: 11px; color: #7fa888; text-transform: uppercase; letter-spacing: 0.06em; }
+
+  @media (max-width: 480px) {
+    .map-card { width: 130px; }
+  }
+</style>
+</head>
+<body>
+
+<div id="app">
+  <canvas id="gameCanvas"></canvas>
+
+  <div class="hud" id="hud" style="display:none;">
+    <div class="hud-pill">
+      <span>🍃</span><span id="caughtDisplay">0</span>/<span id="quotaDisplay">8</span>
+    </div>
+    <div class="hud-right">
+      <div class="hud-pill hearts" id="heartsDisplay">❤️❤️❤️</div>
+      <button id="pauseBtn">⏸</button>
+    </div>
+  </div>
+
+  <div id="banner"><div class="banner-text" id="bannerText"></div></div>
+
+  <div id="touchControls" style="display:none;">
+    <div></div><div class="touch-btn" data-dir="up">▲</div><div></div>
+    <div class="touch-btn" data-dir="left">◀</div><div></div><div class="touch-btn" data-dir="right">▶</div>
+    <div></div><div class="touch-btn" data-dir="down">▼</div><div></div>
+  </div>
+
+  <!-- Main Menu -->
+  <div class="screen" id="menuScreen">
+    <div class="game-title">Forest Hunt</div>
+    <div class="game-subtitle">a snake's hunting grounds</div>
+
+    <div class="menu-section">
+      <div class="menu-label">Choose your hunting ground</div>
+      <div class="map-row" id="mapRow">
+        <div class="map-card selected" data-map="meadow">
+          <div class="map-card-icon">🌾</div>
+          <div class="map-card-name">Meadow Edge</div>
+          <div class="map-card-desc">Open ground, scattered trees. Good for learning to hunt.</div>
+        </div>
+        <div class="map-card" data-map="thicket">
+          <div class="map-card-icon">🌲</div>
+          <div class="map-card-name">Dense Thicket</div>
+          <div class="map-card-desc">Tight tree clusters and narrow trails. Watch your tail.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-section">
+      <div class="menu-label">Choose your level</div>
+      <div class="level-row" id="levelRow">
+        <div class="level-pill selected" data-level="1">Lvl 1</div>
+        <div class="level-pill" data-level="2">Lvl 2</div>
+        <div class="level-pill" data-level="3">Lvl 3</div>
+      </div>
+    </div>
+
+    <button class="play-btn" id="playBtn">Begin the Hunt</button>
+    <div class="instructions">
+      Arrow keys / WASD to move, or use the on-screen pad on touch devices.<br>
+      Catch fleeing animals to fill your quota. <b>Trees &amp; thorns cost a heart</b> on contact — three hits and the hunt ends.<br>
+      From Level 2, an <b>owl</b> hunts you back. Don't linger.
+    </div>
+  </div>
+
+  <!-- Level complete -->
+  <div class="screen hidden" id="winScreen">
+    <div class="result-card">
+      <div class="result-title">🌿 Hunt Complete!</div>
+      <div class="result-sub" id="winSub">You filled your quota.</div>
+      <div class="stat-row">
+        <div><div class="stat-num" id="winCaught">0</div><div class="stat-label">Caught</div></div>
+        <div><div class="stat-num" id="winTime">0:00</div><div class="stat-label">Time</div></div>
+        <div><div class="stat-num" id="winHearts">3</div><div class="stat-label">Hearts Left</div></div>
+      </div>
+      <button class="play-btn" id="nextLevelBtn" style="width:100%;">Next Level</button>
+      <button class="play-btn" id="winMenuBtn" style="width:100%; margin-top:10px; background:transparent; box-shadow:none; color:#9fc9a8; border:1px solid #2f5233;">Back to Menu</button>
+    </div>
+  </div>
+
+  <!-- Game over -->
+  <div class="screen hidden" id="loseScreen">
+    <div class="result-card">
+      <div class="result-title" style="color:var(--berry);">🦉 The Hunt Ends</div>
+      <div class="result-sub" id="loseSub">The forest got the better of you.</div>
+      <div class="stat-row">
+        <div><div class="stat-num" id="loseCaught">0</div><div class="stat-label">Caught</div></div>
+        <div><div class="stat-num" id="loseTime">0:00</div><div class="stat-label">Time</div></div>
+      </div>
+      <button class="play-btn" id="retryBtn" style="width:100%;">Try Again</button>
+      <button class="play-btn" id="loseMenuBtn" style="width:100%; margin-top:10px; background:transparent; box-shadow:none; color:#9fc9a8; border:1px solid #2f5233;">Back to Menu</button>
+    </div>
+  </div>
+
+</div>
+
+<script>
+(function() {
+  const canvas = document.getElementById('gameCanvas');
+  const ctx = canvas.getContext('2d');
+
+  const menuScreen = document.getElementById('menuScreen');
+  const winScreen = document.getElementById('winScreen');
+  const loseScreen = document.getElementById('loseScreen');
+  const hud = document.getElementById('hud');
+  const touchControls = document.getElementById('touchControls');
+
+  const mapRow = document.getElementById('mapRow');
+  const levelRow = document.getElementById('levelRow');
+  const playBtn = document.getElementById('playBtn');
+  const caughtDisplay = document.getElementById('caughtDisplay');
+  const quotaDisplay = document.getElementById('quotaDisplay');
+  const heartsDisplay = document.getElementById('heartsDisplay');
+  const pauseBtn = document.getElementById('pauseBtn');
+  const bannerText = document.getElementById('bannerText');
+
+  const winSub = document.getElementById('winSub');
+  const winCaught = document.getElementById('winCaught');
+  const winTime = document.getElementById('winTime');
+  const winHearts = document.getElementById('winHearts');
+  const nextLevelBtn = document.getElementById('nextLevelBtn');
+  const winMenuBtn = document.getElementById('winMenuBtn');
+
+  const loseSub = document.getElementById('loseSub');
+  const loseCaught = document.getElementById('loseCaught');
+  const loseTime = document.getElementById('loseTime');
+  const retryBtn = document.getElementById('retryBtn');
+  const loseMenuBtn = document.getElementById('loseMenuBtn');
+
+  // ---- Sound engine (Web Audio API) ----
+  let audioCtx = null;
+  function getAudioCtx() {
+    if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    if (audioCtx.state === 'suspended') audioCtx.resume();
+    return audioCtx;
+  }
+  function playTone(freq, duration, type, startGain, glideTo) {
+    try {
+      const ac = getAudioCtx();
+      const osc = ac.createOscillator();
+      const gain = ac.createGain();
+      osc.type = type || 'sine';
+      osc.frequency.setValueAtTime(freq, ac.currentTime);
+      if (glideTo) osc.frequency.exponentialRampToValueAtTime(glideTo, ac.currentTime + duration);
+      gain.gain.setValueAtTime(startGain || 0.18, ac.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, ac.currentTime + duration);
+      osc.connect(gain);
+      gain.connect(ac.destination);
+      osc.start();
+      osc.stop(ac.currentTime + duration);
+    } catch (e) { /* ignore */ }
+  }
+  function sfxCatch() { playTone(523, 0.1, 'sine', 0.16, 880); setTimeout(() => playTone(784, 0.12, 'sine', 0.14, 1046), 70); }
+  function sfxHit() { playTone(180, 0.22, 'sawtooth', 0.16, 90); }
+  function sfxWin() { playTone(523,0.15,'sine',0.18,660); setTimeout(()=>playTone(659,0.15,'sine',0.18,784),140); setTimeout(()=>playTone(784,0.25,'sine',0.2,1046),280); }
+  function sfxLose() { playTone(330,0.2,'sine',0.16,220); setTimeout(()=>playTone(220,0.3,'sine',0.14,140),180); }
+  function sfxClick() { playTone(600, 0.07, 'square', 0.08); }
+
+  // ---- Canvas sizing ----
+  let W, H, DPR;
+  function resize() {
+    DPR = Math.min(window.devicePixelRatio || 1, 2);
+    W = window.innerWidth;
+    H = window.innerHeight;
+    canvas.width = W * DPR;
+    canvas.height = H * DPR;
+    canvas.style.width = W + 'px';
+    canvas.style.height = H + 'px';
+    ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+    if (gridCols) computeGrid();
+  }
+  window.addEventListener('resize', resize);
+
+  // ---- Grid setup ----
+  const GRID_TARGET = 22; // target number of columns, rows derive from aspect
+  let CELL = 28;
+  let gridCols = 0, gridRows = 0;
+  let offsetX = 0, offsetY = 0;
+
+  function computeGrid() {
+    gridCols = GRID_TARGET;
+    CELL = Math.floor(W / gridCols);
+    gridRows = Math.floor(H / CELL);
+    offsetX = (W - gridCols * CELL) / 2;
+    offsetY = (H - gridRows * CELL) / 2;
+  }
+
+  // ---- Map definitions ----
+  // Hazard layout is generated procedurally per map "style" with a fixed seed-like pattern
+  // so the same map always looks the same, but adapts to any grid size.
+  const MAPS = {
+    meadow: {
+      name: 'Meadow Edge',
+      bg1: '#6fae4a', bg2: '#5f9c3f',
+      treeDensity: 0.05,
+      thornDensity: 0.02,
+      clusterTrees: false
+    },
+    thicket: {
+      name: 'Dense Thicket',
+      bg1: '#3a6b3d', bg2: '#2f5733',
+      treeDensity: 0.11,
+      thornDensity: 0.035,
+      clusterTrees: true
+    }
+  };
+
+  const LEVELS = {
+    1: { quota: 8, preyCount: 3, preySpeed: 0.5, predator: false, tickMs: 180 },
+    2: { quota: 10, preyCount: 4, preySpeed: 0.62, predator: true, predatorSpeed: 0.3, tickMs: 170 },
+    3: { quota: 13, preyCount: 5, preySpeed: 0.74, predator: true, predatorSpeed: 0.4, tickMs: 155 }
+  };
+
+  let selectedMap = 'meadow';
+  let selectedLevel = 1;
+
+  mapRow.addEventListener('click', e => {
+    const card = e.target.closest('.map-card');
+    if (!card) return;
+    sfxClick();
+    document.querySelectorAll('.map-card').forEach(c => c.classList.remove('selected'));
+    card.classList.add('selected');
+    selectedMap = card.dataset.map;
+  });
+
+  levelRow.addEventListener('click', e => {
+    const pill = e.target.closest('.level-pill');
+    if (!pill || pill.classList.contains('locked')) return;
+    sfxClick();
+    document.querySelectorAll('.level-pill').forEach(p => p.classList.remove('selected'));
+    pill.classList.add('selected');
+    selectedLevel = parseInt(pill.dataset.level, 10);
+  });
+
+  // ---- Game state ----
+  let snake, dir, nextDir, hazards, preyList, predator, particles;
+  let caught = 0, hearts = 3, quota = 8;
+  let running = false, paused = false;
+  let invulnTicks = 0;
+  let lastTick = 0;
+  let tickMs = 130;
+  let elapsedMs = 0;
+  let startTime = 0;
+  let gameLoopHandle = null;
+  let bannerTimeout = null;
+
+  function cellKey(c, r) { return c + ',' + r; }
+
+  function wrapCol(c) { return ((c % gridCols) + gridCols) % gridCols; }
+  function wrapRow(r) { return ((r % gridRows) + gridRows) % gridRows; }
+
+  function buildHazards(mapDef) {
+    const set = new Set();
+    const total = gridCols * gridRows;
+
+    if (mapDef.clusterTrees) {
+      // place a handful of tree "clumps"
+      const clumps = Math.max(3, Math.floor(gridCols * gridRows * mapDef.treeDensity / 5));
+      for (let i = 0; i < clumps; i++) {
+        const cx = 2 + Math.floor(Math.random() * (gridCols - 4));
+        const cy = 2 + Math.floor(Math.random() * (gridRows - 4));
+        const clumpSize = 3 + Math.floor(Math.random() * 4);
+        for (let j = 0; j < clumpSize; j++) {
+          const dx = Math.floor(Math.random() * 3) - 1;
+          const dy = Math.floor(Math.random() * 3) - 1;
+          const cc = wrapCol(cx + dx), rr = wrapRow(cy + dy);
+          set.add(cellKey(cc, rr) + '|tree');
+        }
+      }
+    } else {
+      for (let i = 0; i < total * mapDef.treeDensity; i++) {
+        const c = Math.floor(Math.random() * gridCols);
+        const r = Math.floor(Math.random() * gridRows);
+        set.add(cellKey(c, r) + '|tree');
+      }
+    }
+
+    for (let i = 0; i < total * mapDef.thornDensity; i++) {
+      const c = Math.floor(Math.random() * gridCols);
+      const r = Math.floor(Math.random() * gridRows);
+      set.add(cellKey(c, r) + '|thorn');
+    }
+
+    // never block the center spawn area
+    const cx = Math.floor(gridCols / 2), cy = Math.floor(gridRows / 2);
+    for (let dx = -2; dx <= 2; dx++) {
+      for (let dy = -2; dy <= 2; dy++) {
+        set.delete(cellKey(wrapCol(cx + dx), wrapRow(cy + dy)) + '|tree');
+        set.delete(cellKey(wrapCol(cx + dx), wrapRow(cy + dy)) + '|thorn');
+      }
+    }
+
+    const hazardMap = new Map();
+    set.forEach(entry => {
+      const [pos, kind] = entry.split('|');
+      hazardMap.set(pos, kind);
+    });
+    return hazardMap;
+  }
+
+  function isHazard(c, r) {
+    return hazards.has(cellKey(c, r));
+  }
+
+  function isSnakeBody(c, r, excludeHead) {
+    const body = excludeHead ? snake.slice(1) : snake;
+    return body.some(s => s.c === c && s.r === r);
+  }
+
+  function randomFreeCell() {
+    let tries = 0;
+    while (tries < 200) {
+      const c = Math.floor(Math.random() * gridCols);
+      const r = Math.floor(Math.random() * gridRows);
+      if (!isHazard(c, r) && !isSnakeBody(c, r, false)) return { c, r };
+      tries++;
+    }
+    return { c: 0, r: 0 };
+  }
+
+  const PREY_TYPES = [
+    { emoji: '🐇', name: 'rabbit', points: 1 },
+    { emoji: '🐭', name: 'mouse', points: 1 },
+    { emoji: '🐸', name: 'frog', points: 1 },
+    { emoji: '🦋', name: 'butterfly', points: 2 }
+  ];
+
+  function spawnPrey(levelDef) {
+    const pos = randomFreeCell();
+    const type = PREY_TYPES[Math.floor(Math.random() * PREY_TYPES.length)];
+    return {
+      c: pos.c, r: pos.r,
+      type,
+      moveAccum: 0,
+      fleeTimer: 0,
+      wiggle: Math.random() * Math.PI * 2
+    };
+  }
+
+  function spawnPredator() {
+    // spawn far from the snake head
+    let pos = randomFreeCell();
+    let tries = 0;
+    while (tries < 30 && Math.abs(pos.c - snake[0].c) + Math.abs(pos.r - snake[0].r) < 6) {
+      pos = randomFreeCell();
+      tries++;
+    }
+    return { c: pos.c, r: pos.r, moveAccum: 0, alertTicks: 0 };
+  }
+
+  function startLevel(mapKey, level) {
+    const mapDef = MAPS[mapKey];
+    const levelDef = LEVELS[level];
+    computeGrid();
+
+    const cx = Math.floor(gridCols / 2), cy = Math.floor(gridRows / 2);
+    snake = [
+      { c: cx, r: cy },
+      { c: wrapCol(cx - 1), r: cy },
+      { c: wrapCol(cx - 2), r: cy }
+    ];
+    dir = { x: 1, y: 0 };
+    nextDir = { x: 1, y: 0 };
+
+    hazards = buildHazards(mapDef);
+    preyList = [];
+    for (let i = 0; i < levelDef.preyCount; i++) preyList.push(spawnPrey(levelDef));
+    predator = levelDef.predator ? spawnPredator() : null;
+    particles = [];
+
+    caught = 0;
+    hearts = 3;
+    quota = levelDef.quota;
+    invulnTicks = 0;
+    tickMs = levelDef.tickMs;
+    elapsedMs = 0;
+    startTime = performance.now();
+    lastTick = 0;
+
+    caughtDisplay.textContent = caught;
+    quotaDisplay.textContent = quota;
+    updateHeartsDisplay();
+
+    currentMapDef = mapDef;
+    currentLevelDef = levelDef;
+    currentLevel = level;
+    currentMapKey = mapKey;
+
+    running = true;
+    paused = false;
+    hud.style.display = 'flex';
+    touchControls.style.display = isTouchDevice() ? 'grid' : 'none';
+    menuScreen.classList.add('hidden');
+    winScreen.classList.add('hidden');
+    loseScreen.classList.add('hidden');
+
+    showBanner(mapDef.name + ' — Level ' + level);
+
+    if (gameLoopHandle) cancelAnimationFrame(gameLoopHandle);
+    gameLoopHandle = requestAnimationFrame(gameLoop);
+  }
+
+  let currentMapDef, currentLevelDef, currentLevel, currentMapKey;
+
+  function isTouchDevice() {
+    return 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+  }
+
+  function updateHeartsDisplay() {
+    let html = '';
+    for (let i = 0; i < 3; i++) {
+      html += i < hearts ? '❤️' : '<span class="heart-lost">🖤</span>';
+    }
+    heartsDisplay.innerHTML = html;
+  }
+
+  function showBanner(text) {
+    bannerText.textContent = text;
+    bannerText.classList.add('show');
+    clearTimeout(bannerTimeout);
+    bannerTimeout = setTimeout(() => bannerText.classList.remove('show'), 1800);
+  }
+
+  // ---- Input ----
+  const KEY_DIRS = {
+    ArrowUp: { x: 0, y: -1 }, ArrowDown: { x: 0, y: 1 },
+    ArrowLeft: { x: -1, y: 0 }, ArrowRight: { x: 1, y: 0 },
+    w: { x: 0, y: -1 }, s: { x: 0, y: 1 }, a: { x: -1, y: 0 }, d: { x: 1, y: 0 }
+  };
+
+  window.addEventListener('keydown', e => {
+    const d = KEY_DIRS[e.key];
+    if (d && running && !paused) {
+      // prevent reversing directly into own neck
+      if (!(d.x === -dir.x && d.y === -dir.y)) nextDir = d;
+    }
+    if (e.key === ' ' && running) togglePause();
+  });
+
+  touchControls.addEventListener('click', e => {
+    const btn = e.target.closest('.touch-btn');
+    if (!btn || !running || paused) return;
+    const map = { up: {x:0,y:-1}, down: {x:0,y:1}, left: {x:-1,y:0}, right: {x:1,y:0} };
+    const d = map[btn.dataset.dir];
+    if (d && !(d.x === -dir.x && d.y === -dir.y)) nextDir = d;
+  });
+
+  // swipe support
+  let touchStartX = null, touchStartY = null;
+  canvas.addEventListener('touchstart', e => {
+    if (!e.touches.length) return;
+    touchStartX = e.touches[0].clientX;
+    touchStartY = e.touches[0].clientY;
+  }, { passive: true });
+  canvas.addEventListener('touchend', e => {
+    if (touchStartX === null) return;
+    const t = e.changedTouches[0];
+    const dx = t.clientX - touchStartX;
+    const dy = t.clientY - touchStartY;
+    if (Math.abs(dx) > 24 || Math.abs(dy) > 24) {
+      let d;
+      if (Math.abs(dx) > Math.abs(dy)) d = dx > 0 ? {x:1,y:0} : {x:-1,y:0};
+      else d = dy > 0 ? {x:0,y:1} : {x:0,y:-1};
+      if (!(d.x === -dir.x && d.y === -dir.y)) nextDir = d;
+    }
+    touchStartX = null; touchStartY = null;
+  }, { passive: true });
+
+  pauseBtn.addEventListener('click', togglePause);
+  function togglePause() {
+    if (!running) return;
+    paused = !paused;
+    pauseBtn.textContent = paused ? '▶' : '⏸';
+    if (paused) showBanner('Paused');
+    else lastTick = 0;
+  }
+
+  // ---- Game loop ----
+  function gameLoop(now) {
+    if (!running) return;
+    gameLoopHandle = requestAnimationFrame(gameLoop);
+    if (paused) { draw(now); return; }
+
+    if (!lastTick) lastTick = now;
+    elapsedMs = now - startTime;
+
+    if (now - lastTick >= tickMs) {
+      lastTick = now;
+      tick();
+    }
+    updateParticles(now);
+    draw(now);
+  }
+
+  function tick() {
+    dir = nextDir;
+    const head = snake[0];
+    const newHead = { c: wrapCol(head.c + dir.x), r: wrapRow(head.r + dir.y) };
+
+    // self collision (excluding tail-tip which will move away) -> treat as hazard hit, not instant death,
+    // but only if it's not the very last segment (since that one vacates this tick)
+    const willHitSelf = snake.slice(0, -1).some(s => s.c === newHead.c && s.r === newHead.r);
+
+    snake.unshift(newHead);
+
+    let ateSomething = false;
+
+    // prey catching
+    for (let i = preyList.length - 1; i >= 0; i--) {
+      const p = preyList[i];
+      if (p.c === newHead.c && p.r === newHead.r) {
+        caught++;
+        ateSomething = true;
+        sfxCatch();
+        spawnCatchParticles(newHead.c, newHead.r);
+        preyList.splice(i, 1);
+        preyList.push(spawnPrey(currentLevelDef));
+        caughtDisplay.textContent = caught;
+        if (caught >= quota) {
+          winLevel();
+          return;
+        }
+      }
+    }
+
+    if (!ateSomething) snake.pop();
+
+    // hazard / self / predator collision
+    const hitHazard = isHazard(newHead.c, newHead.r);
+    const hitPredator = predator && predator.c === newHead.c && predator.r === newHead.r;
+
+    if ((hitHazard || willHitSelf || hitPredator) && invulnTicks <= 0) {
+      takeHit(hitPredator ? 'predator' : (willHitSelf ? 'tail' : 'hazard'));
+    }
+
+    if (invulnTicks > 0) invulnTicks--;
+
+    // move prey (flee behavior)
+    preyList.forEach(p => moveOnePrey(p));
+
+    // move predator (chase behavior)
+    if (predator) movePredator();
+  }
+
+  function moveOnePrey(p) {
+    const headDist = Math.abs(p.c - snake[0].c) + Math.abs(p.r - snake[0].r);
+    let dx = 0, dy = 0;
+
+    if (headDist <= 4) {
+      // flee directly away from the snake head
+      dx = Math.sign(p.c - snake[0].c) || (Math.random() < 0.5 ? 1 : -1);
+      dy = Math.sign(p.r - snake[0].r) || (Math.random() < 0.5 ? 1 : -1);
+      // pick the single axis with greater separation need, mostly move on one axis at a time for grid feel
+      if (Math.random() < 0.5) dy = 0; else dx = 0;
+    } else if (Math.random() < currentLevelDef.preySpeed) {
+      // idle wander
+      const dirs = [{x:1,y:0},{x:-1,y:0},{x:0,y:1},{x:0,y:-1}];
+      const choice = dirs[Math.floor(Math.random() * dirs.length)];
+      dx = choice.x; dy = choice.y;
+    } else {
+      return;
+    }
+
+    const nc = wrapCol(p.c + dx), nr = wrapRow(p.r + dy);
+    if (!isHazard(nc, nr) && !(nc === snake[0].c && nr === snake[0].r)) {
+      p.c = nc; p.r = nr;
+    }
+  }
+
+  function movePredator() {
+    if (Math.random() > currentLevelDef.predatorSpeed) return;
+    const head = snake[0];
+    let dx = Math.sign(head.c - predator.c);
+    let dy = Math.sign(head.r - predator.r);
+    // prefer moving on the axis with greater distance, with wraparound shortcut consideration kept simple
+    if (Math.abs(head.c - predator.c) < Math.abs(head.r - predator.r)) dx = 0; else dy = 0;
+
+    const nc = wrapCol(predator.c + dx), nr = wrapRow(predator.r + dy);
+    if (!isHazard(nc, nr)) {
+      predator.c = nc; predator.r = nr;
+    }
+  }
+
+  function takeHit(cause) {
+    hearts--;
+    invulnTicks = 6;
+    sfxHit();
+    updateHeartsDisplay();
+    const messages = {
+      hazard: 'Ouch! Watch the trees and thorns.',
+      tail: 'Careful of your own tail!',
+      predator: 'The owl struck! Stay sharp.'
+    };
+    showBanner(messages[cause] || 'Ouch!');
+    spawnHitParticles(snake[0].c, snake[0].r);
+
+    if (hearts <= 0) {
+      loseLevel(cause);
+    }
+  }
+
+  function spawnCatchParticles(c, r) {
+    const px = offsetX + c * CELL + CELL / 2;
+    const py = offsetY + r * CELL + CELL / 2;
+    for (let i = 0; i < 10; i++) {
+      const a = Math.random() * Math.PI * 2;
+      const sp = 1 + Math.random() * 2.5;
+      particles.push({ x: px, y: py, vx: Math.cos(a)*sp, vy: Math.sin(a)*sp - 1, life: 1, emoji: '✨', size: 14 + Math.random()*8 });
+    }
+  }
+  function spawnHitParticles(c, r) {
+    const px = offsetX + c * CELL + CELL / 2;
+    const py = offsetY + r * CELL + CELL / 2;
+    for (let i = 0; i < 8; i++) {
+      const a = Math.random() * Math.PI * 2;
+      const sp = 1 + Math.random() * 2;
+      particles.push({ x: px, y: py, vx: Math.cos(a)*sp, vy: Math.sin(a)*sp, life: 1, emoji: '💥', size: 16 + Math.random()*6 });
+    }
+  }
+  function updateParticles() {
+    particles.forEach(p => { p.x += p.vx; p.y += p.vy; p.vy += 0.08; p.life -= 0.03; });
+    particles = particles.filter(p => p.life > 0);
+  }
+
+  function winLevel() {
+    running = false;
+    sfxWin();
+    setTimeout(() => {
+      const totalSec = Math.floor(elapsedMs / 1000);
+      winCaught.textContent = caught;
+      winTime.textContent = Math.floor(totalSec/60) + ':' + String(totalSec%60).padStart(2,'0');
+      winHearts.textContent = hearts;
+      winSub.textContent = currentMapDef.name + ' · Level ' + currentLevel + ' cleared';
+      nextLevelBtn.style.display = LEVELS[currentLevel+1] ? 'block' : 'none';
+      winScreen.classList.remove('hidden');
+      hud.style.display = 'none';
+      touchControls.style.display = 'none';
+
+      // unlock next level pill in menu
+      if (LEVELS[currentLevel+1]) {
+        const nextPill = document.querySelector(`.level-pill[data-level="${currentLevel+1}"]`);
+        if (nextPill) nextPill.classList.remove('locked');
+      }
+    }, 400);
+  }
+
+  function loseLevel(cause) {
+    running = false;
+    sfxLose();
+    setTimeout(() => {
+      const totalSec = Math.floor(elapsedMs / 1000);
+      loseCaught.textContent = caught;
+      loseTime.textContent = Math.floor(totalSec/60) + ':' + String(totalSec%60).padStart(2,'0');
+      const causeMsg = {
+        hazard: 'A tangle of thorns finished the hunt.',
+        tail: 'You tripped over your own tail.',
+        predator: "The owl's talons caught you."
+      };
+      loseSub.textContent = causeMsg[cause] || 'The forest got the better of you.';
+      loseScreen.classList.remove('hidden');
+      hud.style.display = 'none';
+      touchControls.style.display = 'none';
+    }, 300);
+  }
+
+  // ---- Drawing ----
+  function draw(now) {
+    ctx.clearRect(0, 0, W, H);
+
+    // background
+    const mapDef = currentMapDef || MAPS.meadow;
+    ctx.fillStyle = mapDef.bg1;
+    ctx.fillRect(0, 0, W, H);
+
+    // checkerboard ground texture
+    for (let r = 0; r < gridRows; r++) {
+      for (let c = 0; c < gridCols; c++) {
+        if ((c + r) % 2 === 0) {
+          ctx.fillStyle = mapDef.bg2;
+          ctx.fillRect(offsetX + c*CELL, offsetY + r*CELL, CELL, CELL);
+        }
+      }
+    }
+
+    // hazards
+    hazards.forEach((kind, key) => {
+      const [c, r] = key.split(',').map(Number);
+      const x = offsetX + c*CELL, y = offsetY + r*CELL;
+      if (kind === 'tree') drawTree(x, y);
+      else drawThorn(x, y);
+    });
+
+    // prey
+    preyList.forEach(p => {
+      const x = offsetX + p.c*CELL + CELL/2;
+      const y = offsetY + p.r*CELL + CELL/2;
+      const bob = Math.sin(now/200 + p.wiggle) * 2;
+      ctx.font = (CELL*0.7) + 'px "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillStyle = '#000';
+      ctx.shadowColor = 'rgba(0,0,0,0.3)';
+      ctx.shadowBlur = 4;
+      ctx.fillText(p.type.emoji, x, y + bob);
+      ctx.shadowBlur = 0;
+    });
+
+    // predator
+    if (predator) {
+      const x = offsetX + predator.c*CELL + CELL/2;
+      const y = offsetY + predator.r*CELL + CELL/2;
+      const bob = Math.sin(now/150) * 3;
+      ctx.font = (CELL*0.85) + 'px "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillStyle = '#000';
+      ctx.shadowColor = 'rgba(214,69,61,0.6)';
+      ctx.shadowBlur = 10;
+      ctx.fillText('🦉', x, y + bob);
+      ctx.shadowBlur = 0;
+    }
+
+    // snake
+    drawSnake(now);
+
+    // particles
+    particles.forEach(p => {
+      ctx.save();
+      ctx.globalAlpha = Math.max(p.life, 0);
+      ctx.font = p.size + 'px serif';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillText(p.emoji, p.x, p.y);
+      ctx.restore();
+    });
+  }
+
+  function drawTree(x, y) {
+    ctx.save();
+    ctx.translate(x + CELL/2, y + CELL/2);
+    ctx.fillStyle = 'var(--bark-dark)';
+    ctx.fillStyle = '#3e2715';
+    ctx.fillRect(-CELL*0.07, CELL*0.05, CELL*0.14, CELL*0.35);
+    ctx.fillStyle = '#1f4a28';
+    ctx.beginPath();
+    ctx.arc(0, -CELL*0.12, CELL*0.34, 0, Math.PI*2);
+    ctx.fill();
+    ctx.fillStyle = '#2b5e34';
+    ctx.beginPath();
+    ctx.arc(-CELL*0.12, -CELL*0.22, CELL*0.2, 0, Math.PI*2);
+    ctx.fill();
+    ctx.restore();
+  }
+
+  function drawThorn(x, y) {
+    ctx.save();
+    ctx.translate(x + CELL/2, y + CELL/2);
+    ctx.strokeStyle = '#6b2222';
+    ctx.lineWidth = Math.max(1.5, CELL*0.06);
+    for (let i = 0; i < 5; i++) {
+      const a = (i / 5) * Math.PI * 2;
+      ctx.beginPath();
+      ctx.moveTo(0,0);
+      ctx.lineTo(Math.cos(a)*CELL*0.3, Math.sin(a)*CELL*0.3);
+      ctx.stroke();
+    }
+    ctx.fillStyle = '#8b3a3a';
+    ctx.beginPath();
+    ctx.arc(0, 0, CELL*0.12, 0, Math.PI*2);
+    ctx.fill();
+    ctx.restore();
+  }
+
+  function drawSnake(now) {
+    const flashing = invulnTicks > 0 && Math.floor(now / 100) % 2 === 0;
+    snake.forEach((seg, i) => {
+      const x = offsetX + seg.c*CELL + CELL/2;
+      const y = offsetY + seg.r*CELL + CELL/2;
+      const isHead = i === 0;
+      const radius = isHead ? CELL*0.46 : CELL*0.4 * (1 - i/(snake.length+4));
+
+      ctx.save();
+      ctx.globalAlpha = flashing ? 0.4 : 1;
+      ctx.fillStyle = isHead ? '#4caf50' : (i % 2 === 0 ? '#43a047' : '#388e3c');
+      ctx.beginPath();
+      ctx.arc(x, y, Math.max(radius, CELL*0.18), 0, Math.PI*2);
+      ctx.fill();
+
+      if (isHead) {
+        // eyes oriented toward movement direction
+        const ex = dir.x * CELL*0.15, ey = dir.y * CELL*0.15;
+        const perpX = -dir.y * CELL*0.14, perpY = dir.x * CELL*0.14;
+        ctx.fillStyle = '#fff';
+        ctx.beginPath();
+        ctx.arc(x + ex + perpX, y + ey + perpY, CELL*0.09, 0, Math.PI*2);
+        ctx.arc(x + ex - perpX, y + ey - perpY, CELL*0.09, 0, Math.PI*2);
+        ctx.fill();
+        ctx.fillStyle = '#1a1a1a';
+        ctx.beginPath();
+        ctx.arc(x + ex*1.4 + perpX, y + ey*1.4 + perpY, CELL*0.045, 0, Math.PI*2);
+        ctx.arc(x + ex*1.4 - perpX, y + ey*1.4 - perpY, CELL*0.045, 0, Math.PI*2);
+        ctx.fill();
+
+        // tongue
+        if (Math.floor(now/300) % 3 === 0) {
+          ctx.strokeStyle = '#e94560';
+          ctx.lineWidth = Math.max(1.5, CELL*0.05);
+          ctx.beginPath();
+          ctx.moveTo(x + dir.x*CELL*0.4, y + dir.y*CELL*0.4);
+          ctx.lineTo(x + dir.x*CELL*0.6, y + dir.y*CELL*0.6);
+          ctx.stroke();
+        }
+      }
+      ctx.restore();
+    });
+  }
+
+  // ---- Menu/flow wiring ----
+  playBtn.addEventListener('click', () => {
+    getAudioCtx();
+    sfxClick();
+    startLevel(selectedMap, selectedLevel);
+  });
+
+  nextLevelBtn.addEventListener('click', () => {
+    sfxClick();
+    startLevel(currentMapKey, currentLevel + 1);
+  });
+  winMenuBtn.addEventListener('click', () => {
+    sfxClick();
+    backToMenu();
+  });
+  retryBtn.addEventListener('click', () => {
+    sfxClick();
+    startLevel(currentMapKey, currentLevel);
+  });
+  loseMenuBtn.addEventListener('click', () => {
+    sfxClick();
+    backToMenu();
+  });
+
+  function backToMenu() {
+    running = false;
+    hud.style.display = 'none';
+    touchControls.style.display = 'none';
+    winScreen.classList.add('hidden');
+    loseScreen.classList.add('hidden');
+    menuScreen.classList.remove('hidden');
+  }
+
+  // initial sizing + idle background draw
+  resize();
+  computeGrid();
+  currentMapDef = MAPS.meadow;
+  snake = [{c:5,r:5},{c:4,r:5},{c:3,r:5}];
+  dir = {x:1,y:0};
+  hazards = new Map();
+  preyList = [];
+  predator = null;
+  particles = [];
+  draw(0);
+})();
+</script>
+
+</body>
+</html>
